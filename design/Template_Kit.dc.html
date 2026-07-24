@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="design_doc_mode" content="canvas"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/tokens/fonts.css"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/tokens/colors.css"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/tokens/typography.css"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/tokens/spacing.css"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/tokens/motion.css"/>
+<link rel="stylesheet" href="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/styles.css"/>
+<script src="_ds/thin-air-studios-design-system-9700d8c3-c90c-4421-997d-85c5a7ea1cc1/_ds_bundle.js"></script>
+<style>
+*{box-sizing:border-box;}
+body{margin:0;}
+a{color:inherit;text-decoration:none;}
+a:hover{opacity:.82;}
+.nw-cta{transition:opacity .18s ease;}
+.nw-cta:hover{opacity:.9;}
+.tg-btn{transition:opacity .18s ease;}
+.tg-btn:hover{opacity:.9;}
+</style>
+</helmet>
+<div style="background:#C2BFB7;padding:60px 72px;min-width:max-content;font-family:var(--font-body);color:#1A1C1E;">
+
+  <div style="max-width:1060px;margin-bottom:100px;">
+    <div style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#5C5F60;">Unlayer · Elements template kit</div>
+    <h1 style="font-family:var(--font-display);font-size:72px;font-weight:500;letter-spacing:-.02em;line-height:1.0;margin:18px 0 0;color:#1A1C1E;">Four worlds,<br/>one system.</h1>
+    <p style="font-family:var(--font-body);font-size:17px;line-height:1.55;color:#3A3D3E;max-width:640px;margin:22px 0 0;">Four transactional templates — a freight rate confirmation, an after-dark event ticket, a Swiss-ledger invoice, and a trail-retail order confirmation. Each is built from one fixed block set and renders three ways: email, web, and print PDF. One shared discipline of type, grid, and restraint — four unmistakably different worlds.</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(20,22,24,.16);border:1px solid rgba(20,22,24,.16);margin-top:44px;max-width:920px;">
+      <div style="background:#E7E4DC;padding:16px 18px;"><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#77797A;">Type</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#1A1C1E;margin-top:8px;line-height:1.35;">Space Grotesk · Inter · JetBrains Mono</div></div>
+      <div style="background:#E7E4DC;padding:16px 18px;"><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#77797A;">Grid</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#1A1C1E;margin-top:8px;line-height:1.35;">8 px base · reflows to one column</div></div>
+      <div style="background:#E7E4DC;padding:16px 18px;"><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#77797A;">Figures</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#1A1C1E;margin-top:8px;line-height:1.35;">Tabular · mono in every number column</div></div>
+      <div style="background:#E7E4DC;padding:16px 18px;"><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#77797A;">Accent</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#1A1C1E;margin-top:8px;line-height:1.35;">One per world · meaning, never decor</div></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-top:20px;flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:10px;background:#E7E4DC;border:1px solid rgba(20,22,24,.12);padding:11px 15px;"><span style="font-family:var(--font-mono);font-size:11px;color:#77797A;">01</span><span style="width:9px;height:9px;border-radius:50%;background:#C6412A;"></span><span style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#1A1C1E;">Rate Confirmation</span><span style="font-family:var(--font-mono);font-size:10px;color:#8A8C8C;">Northwind Freight</span></div>
+      <div style="display:flex;align-items:center;gap:10px;background:#E7E4DC;border:1px solid rgba(20,22,24,.12);padding:11px 15px;"><span style="font-family:var(--font-mono);font-size:11px;color:#77797A;">02</span><span style="width:9px;height:9px;border-radius:50%;background:#FF2D78;"></span><span style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#1A1C1E;">Event Ticket</span><span style="font-family:var(--font-mono);font-size:10px;color:#8A8C8C;">Nightshift</span></div>
+      <div style="display:flex;align-items:center;gap:10px;background:#E7E4DC;border:1px solid rgba(20,22,24,.12);padding:11px 15px;"><span style="font-family:var(--font-mono);font-size:11px;color:#77797A;">03</span><span style="width:9px;height:9px;border-radius:50%;background:#1E3A5F;"></span><span style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#1A1C1E;">Invoice · Receipt</span><span style="font-family:var(--font-mono);font-size:10px;color:#8A8C8C;">Loomly Studio</span></div>
+      <div style="display:flex;align-items:center;gap:10px;background:#E7E4DC;border:1px solid rgba(20,22,24,.12);padding:11px 15px;"><span style="font-family:var(--font-mono);font-size:11px;color:#77797A;">04</span><span style="width:9px;height:9px;border-radius:50%;background:#C7622B;"></span><span style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#1A1C1E;">Order Confirmation</span><span style="font-family:var(--font-mono);font-size:10px;color:#8A8C8C;">Trailhead Goods</span></div>
+    </div>
+  </div>
+<div style="margin:0 0 120px;"><div style="max-width:760px;margin-bottom:52px;">
+    <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#4A4E50;">Template 01 — Freight</div>
+    <h1 style="font-family:var(--font-display);font-size:52px;font-weight:500;letter-spacing:-.015em;line-height:1.02;margin:16px 0 0;color:#17242E;">Rate Confirmation</h1>
+    <p style="font-family:var(--font-body);font-size:16px;line-height:1.55;color:#33383B;max-width:600px;margin:16px 0 0;">“Signed manifest.” The rate con a broker emails a carrier — and the sheet the carrier signs. A shipping contract, not a marketing email: austere, ruled, every figure tabular. <strong style="color:#17242E;font-weight:600;">Northwind Freight</strong> · one vermilion accent, action only.</p>
+  </div>
+
+  <div style="display:flex;gap:80px;align-items:flex-start;"><!--ROWSTART-->
+
+    <!-- ============ EMAIL ARTBOARD ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2C3033;">Email</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5A5E60;">600 px · portrait · email-safe</span>
+      </div>
+
+      <div style="width:644px;background:#ECE6D8;padding:22px;">
+        <!-- email client meta -->
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;padding:0 4px 16px;">
+          <div>
+            <div style="font-family:var(--font-body);font-size:13px;font-weight:600;color:#17242E;">Northwind Freight <span style="font-weight:400;color:#7A756A;">&lt;dispatch@northwindfreight.com&gt;</span></div>
+            <div style="font-family:var(--font-body);font-size:12px;color:#8A8478;margin-top:3px;">Rate Confirmation NW-RC-48217 — signature required</div>
+          </div>
+          <a href="#" style="font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8A8478;white-space:nowrap;">View in browser</a>
+        </div>
+
+        <!-- WHITE DOCUMENT CARD -->
+        <div style="width:600px;background:#FFFFFF;border:1px solid rgba(23,36,46,.13);">
+
+          <!-- BAND 1 · HEADER (navy) -->
+          <div style="background:#17242E;color:#F3EDE0;padding:24px 28px;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+              <div style="display:flex;align-items:center;gap:12px;">
+                <img src="assets/northwind-mark-paper.svg" alt="Northwind Freight compass mark" width="36" height="36" style="display:block;"/>
+                <div style="line-height:1;">
+                  <div style="font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:.02em;">NORTHWIND</div>
+                  <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.34em;color:rgba(243,237,224,.6);margin-top:5px;">FREIGHT · BROKERAGE</div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(243,237,224,.6);">Rate</div>
+                <div style="font-family:var(--font-display);font-size:19px;font-weight:500;letter-spacing:.04em;margin-top:3px;">CONFIRMATION</div>
+              </div>
+            </div>
+            <div style="height:1px;background:rgba(243,237,224,.2);margin:20px 0 16px;"></div>
+            <div style="display:grid;grid-template-columns:1fr 1fr auto;gap:16px;align-items:center;">
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,237,224,.55);">Confirmation No.</div>
+                <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;letter-spacing:.04em;margin-top:5px;font-variant-numeric:tabular-nums;">NW-RC-48217</div>
+              </div>
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,237,224,.55);">Issued</div>
+                <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;letter-spacing:.04em;margin-top:5px;font-variant-numeric:tabular-nums;">Jul 24 2026</div>
+              </div>
+              <div style="background:#C6412A;color:#fff;padding:7px 11px;">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;">Signature required</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAND 2 · LANE HERO (white) -->
+          <div style="padding:28px 28px 26px;border-bottom:1px solid rgba(23,36,46,.13);">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;margin-bottom:16px;">The lane</div>
+            <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start;">
+              <div>
+                <div style="font-family:var(--font-display);font-size:30px;font-weight:500;letter-spacing:-.01em;line-height:1.02;color:#17242E;white-space:nowrap;">Portland, OR</div>
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#C6412A;margin-top:14px;">Pickup</div>
+                <div style="font-family:var(--font-mono);font-size:13px;color:#33383B;margin-top:5px;font-variant-numeric:tabular-nums;">Mon Jul 27 · 08:00–12:00</div>
+              </div>
+              <div style="text-align:center;min-width:118px;padding-top:6px;">
+                <div style="font-family:var(--font-mono);font-size:17px;font-weight:500;color:#17242E;font-variant-numeric:tabular-nums;">963 <span style="font-size:11px;color:#7A828B;">MI</span></div>
+                <div style="display:flex;align-items:center;gap:5px;margin:9px 0;color:rgba(23,36,46,.35);">
+                  <div style="flex:1;height:1px;background:currentColor;"></div>
+                  <span style="font-size:11px;line-height:1;">▶</span>
+                </div>
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7A828B;">~24 hr transit</div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-family:var(--font-display);font-size:30px;font-weight:500;letter-spacing:-.01em;line-height:1.02;color:#17242E;white-space:nowrap;">Vernon, CA</div>
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;margin-top:14px;">Delivery</div>
+                <div style="font-family:var(--font-mono);font-size:13px;color:#33383B;margin-top:5px;font-variant-numeric:tabular-nums;">Tue Jul 28 · 13:00–16:00</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAND 3 · SPEC STRIP (3col, hairline-topped) -->
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;border-bottom:1px solid rgba(23,36,46,.13);">
+            <div style="padding:16px 28px;border-right:1px solid rgba(23,36,46,.13);">
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Load No.</div>
+              <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;font-variant-numeric:tabular-nums;">L-33915</div>
+            </div>
+            <div style="padding:16px 20px;border-right:1px solid rgba(23,36,46,.13);">
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Equipment</div>
+              <div style="font-family:var(--font-body);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;">53′ Dry Van</div>
+            </div>
+            <div style="padding:16px 20px;">
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Gross Weight</div>
+              <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;font-variant-numeric:tabular-nums;">42,000 lbs</div>
+            </div>
+          </div>
+
+          <!-- BAND 4 · STOP DETAIL (2col) -->
+          <div style="display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid rgba(23,36,46,.13);">
+            <div style="padding:22px 28px;border-right:1px solid rgba(23,36,46,.13);">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;">Stop 01 · Pickup</div>
+              <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#17242E;margin-top:11px;">Columbia Cold Storage</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#5C6771;margin-top:5px;">3400 NW Front Ave<br/>Portland, OR 97210</div>
+              <div style="margin-top:14px;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-family:var(--font-mono);font-size:11px;color:#33383B;font-variant-numeric:tabular-nums;">
+                <span style="color:#7A828B;">REF/PO</span><span>PO-88213</span>
+                <span style="color:#7A828B;">PHONE</span><span>(503) 555-0142</span>
+                <span style="color:#7A828B;">APPT</span><span>Mon Jul 27 · 08:00–12:00</span>
+              </div>
+            </div>
+            <div style="padding:22px 28px;">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;">Stop 02 · Delivery</div>
+              <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#17242E;margin-top:11px;">Vernon Distribution Center</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#5C6771;margin-top:5px;">4825 S Boyle Ave<br/>Vernon, CA 90058</div>
+              <div style="margin-top:14px;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-family:var(--font-mono);font-size:11px;color:#33383B;font-variant-numeric:tabular-nums;">
+                <span style="color:#7A828B;">REF/DO</span><span>DO-55190</span>
+                <span style="color:#7A828B;">PHONE</span><span>(323) 555-0198</span>
+                <span style="color:#7A828B;">APPT</span><span>Tue Jul 28 · 13:00–16:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAND 5 · RATE BREAKDOWN TABLE -->
+          <div style="padding:22px 28px 4px;">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:11px;border-bottom:1.5px solid #17242E;">
+              <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;">Description</span>
+              <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;">Amount</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding:13px 0;border-bottom:1px solid rgba(23,36,46,.13);">
+              <span style="font-family:var(--font-body);font-size:14px;color:#17242E;">Linehaul <span style="color:#7A828B;">— Portland, OR → Vernon, CA</span></span>
+              <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$2,300.00</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding:13px 0;border-bottom:1px solid rgba(23,36,46,.13);background:rgba(23,36,46,.02);">
+              <span style="font-family:var(--font-body);font-size:14px;color:#17242E;padding-left:0;">Fuel surcharge <span style="color:#7A828B;">— 963 mi @ $0.36/mi</span></span>
+              <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$345.00</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;padding:13px 0;border-bottom:1px solid rgba(23,36,46,.13);">
+              <span style="font-family:var(--font-body);font-size:14px;color:#17242E;">Detention <span style="color:#7A828B;">— 1 hr @ $25.00 (Vernon)</span></span>
+              <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$25.00</span>
+            </div>
+          </div>
+
+          <!-- BAND 6 · TOTAL BAND (navy) -->
+          <div style="background:#17242E;color:#F3EDE0;padding:22px 28px;display:flex;justify-content:space-between;align-items:center;">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:rgba(243,237,224,.7);">Total due to carrier</div>
+              <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:rgba(243,237,224,.5);margin-top:5px;">All-in · USD · net 30 on signed BOL</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:33px;font-weight:500;letter-spacing:-.01em;font-variant-numeric:tabular-nums;">$2,670.00</div>
+          </div>
+
+          <!-- BAND 7 · PARTIES + TERMS -->
+          <div style="padding:22px 28px;border-bottom:1px solid rgba(23,36,46,.13);">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-bottom:18px;">
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Broker</div>
+                <div style="font-family:var(--font-body);font-size:13px;color:#17242E;margin-top:6px;line-height:1.45;">Northwind Freight LLC<br/><span style="font-family:var(--font-mono);color:#5C6771;">MC 712043 · Dana Okafor, Dispatch</span></div>
+              </div>
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Carrier</div>
+                <div style="font-family:var(--font-body);font-size:13px;color:#17242E;margin-top:6px;line-height:1.45;">Cascade Line Haul LLC<br/><span style="font-family:var(--font-mono);color:#5C6771;">MC 883147 · DOT 2946512</span></div>
+              </div>
+            </div>
+            <div style="font-family:var(--font-body);font-size:12px;line-height:1.6;color:#5C6771;">Rate is all-in and inclusive of fuel. Detention paid at $25.00/hr after 2 hours free at each stop, documented on the BOL. Carrier may not re-broker or double-broker this load. Notify dispatch of any delay within one hour of the appointment window. Invoice with signed BOL and this confirmation to <span style="color:#17242E;">accounting@northwindfreight.com</span>.</div>
+          </div>
+
+          <!-- BAND 8 · CTA (email) -->
+          <div style="padding:26px 28px;text-align:center;">
+            <a href="#" class="nw-cta" style="display:inline-block;background:#C6412A;color:#fff;font-family:var(--font-mono);font-size:13px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:15px 34px;border-radius:4px;">Review &amp; Accept</a>
+            <div style="font-family:var(--font-body);font-size:12px;color:#7A828B;margin-top:14px;">Or reply to confirm · Dana Okafor, Dispatch · <span style="font-family:var(--font-mono);color:#5C6771;">(503) 555-0110</span></div>
+          </div>
+
+          <!-- BAND 9 · FOOTER (navy) -->
+          <div style="background:#17242E;color:rgba(243,237,224,.72);padding:22px 28px;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">
+              <div style="font-family:var(--font-mono);font-size:10px;line-height:1.7;letter-spacing:.04em;">NORTHWIND FREIGHT · MC 712043<br/>220 SW Ash St, Suite 400 · Portland, OR 97204</div>
+              <div style="display:flex;gap:8px;">
+                <span style="width:26px;height:26px;border:1px solid rgba(243,237,224,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:rgba(243,237,224,.7);">in</span>
+                <span style="width:26px;height:26px;border:1px solid rgba(243,237,224,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:rgba(243,237,224,.7);">X</span>
+                <span style="width:26px;height:26px;border:1px solid rgba(243,237,224,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:rgba(243,237,224,.7);">↗</span>
+              </div>
+            </div>
+            <div style="height:1px;background:rgba(243,237,224,.16);margin:16px 0 14px;"></div>
+            <div style="font-family:var(--font-body);font-size:11px;line-height:1.55;color:rgba(243,237,224,.5);">You received this because you are a contracted carrier with Northwind Freight. This rate confirmation is part of a load agreement, not a solicitation.</div>
+          </div>
+
+        </div>
+        <!-- email-only sub-footer on kraft -->
+        <div style="text-align:center;padding:16px 4px 4px;font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;color:#8A8478;">
+          <a href="#" style="color:#8A8478;">View in browser</a> · <a href="#" style="color:#8A8478;">Manage notifications</a> · Northwind Freight, Portland OR
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ PRINT PDF ARTBOARD ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2C3033;">Print PDF</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5A5E60;">US Letter · 8.5 × 11 in · signable</span>
+      </div>
+
+      <div style="width:816px;min-height:1056px;background:#FFFFFF;padding:60px 72px;border:1px solid rgba(23,36,46,.13);display:flex;flex-direction:column;">
+
+        <!-- HEADER (navy) -->
+        <div style="background:#17242E;color:#F3EDE0;padding:22px 26px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <img src="assets/northwind-mark-paper.svg" alt="Northwind Freight compass mark" width="36" height="36" style="display:block;"/>
+              <div style="line-height:1;">
+                <div style="font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:.02em;">NORTHWIND</div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.34em;color:rgba(243,237,224,.6);margin-top:5px;">FREIGHT · BROKERAGE</div>
+              </div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(243,237,224,.6);">Rate</div>
+              <div style="font-family:var(--font-display);font-size:19px;font-weight:500;letter-spacing:.04em;margin-top:3px;">CONFIRMATION</div>
+              <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:rgba(243,237,224,.45);margin-top:6px;">Page 1 of 1</div>
+            </div>
+          </div>
+          <div style="height:1px;background:rgba(243,237,224,.2);margin:18px 0 15px;"></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr auto;gap:16px;align-items:center;">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,237,224,.55);">Confirmation No.</div>
+              <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;letter-spacing:.04em;margin-top:5px;font-variant-numeric:tabular-nums;">NW-RC-48217</div>
+            </div>
+            <div>
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,237,224,.55);">Issued</div>
+              <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;letter-spacing:.04em;margin-top:5px;font-variant-numeric:tabular-nums;">Jul 24 2026</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#E8836F;">Signature required</div>
+          </div>
+        </div>
+
+        <!-- LANE HERO -->
+        <div style="padding:24px 4px 22px;border-bottom:1px solid rgba(23,36,46,.13);">
+          <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;margin-bottom:14px;">The lane</div>
+          <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:start;">
+            <div>
+              <div style="font-family:var(--font-display);font-size:32px;font-weight:500;letter-spacing:-.01em;line-height:1.02;color:#17242E;white-space:nowrap;">Portland, OR</div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#C6412A;margin-top:14px;">Pickup</div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33383B;margin-top:5px;font-variant-numeric:tabular-nums;">Mon Jul 27 · 08:00–12:00</div>
+            </div>
+            <div style="text-align:center;min-width:140px;padding-top:8px;">
+              <div style="font-family:var(--font-mono);font-size:18px;font-weight:500;color:#17242E;font-variant-numeric:tabular-nums;">963 <span style="font-size:11px;color:#7A828B;">MI</span></div>
+              <div style="display:flex;align-items:center;gap:5px;margin:9px 0;color:rgba(23,36,46,.35);">
+                <div style="flex:1;height:1px;background:currentColor;"></div>
+                <span style="font-size:11px;line-height:1;">▶</span>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#7A828B;">~24 hr transit</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-family:var(--font-display);font-size:32px;font-weight:500;letter-spacing:-.01em;line-height:1.02;color:#17242E;white-space:nowrap;">Vernon, CA</div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;margin-top:14px;">Delivery</div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33383B;margin-top:5px;font-variant-numeric:tabular-nums;">Tue Jul 28 · 13:00–16:00</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SPEC STRIP -->
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;border-bottom:1px solid rgba(23,36,46,.13);">
+          <div style="padding:15px 4px;border-right:1px solid rgba(23,36,46,.13);">
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Load No.</div>
+            <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;font-variant-numeric:tabular-nums;">L-33915</div>
+          </div>
+          <div style="padding:15px 20px;border-right:1px solid rgba(23,36,46,.13);">
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Equipment</div>
+            <div style="font-family:var(--font-body);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;">53′ Dry Van</div>
+          </div>
+          <div style="padding:15px 20px;">
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Gross Weight</div>
+            <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;color:#17242E;margin-top:6px;font-variant-numeric:tabular-nums;">42,000 lbs</div>
+          </div>
+        </div>
+
+        <!-- STOP DETAIL -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid rgba(23,36,46,.13);">
+          <div style="padding:20px 24px 20px 4px;border-right:1px solid rgba(23,36,46,.13);">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;">Stop 01 · Pickup</div>
+            <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#17242E;margin-top:10px;">Columbia Cold Storage</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#5C6771;margin-top:5px;">3400 NW Front Ave · Portland, OR 97210</div>
+            <div style="margin-top:12px;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-family:var(--font-mono);font-size:11px;color:#33383B;font-variant-numeric:tabular-nums;">
+              <span style="color:#7A828B;">REF/PO</span><span>PO-88213</span>
+              <span style="color:#7A828B;">PHONE</span><span>(503) 555-0142</span>
+              <span style="color:#7A828B;">APPT</span><span>Mon Jul 27 · 08:00–12:00</span>
+            </div>
+          </div>
+          <div style="padding:20px 4px 20px 24px;">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7A828B;">Stop 02 · Delivery</div>
+            <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#17242E;margin-top:10px;">Vernon Distribution Center</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#5C6771;margin-top:5px;">4825 S Boyle Ave · Vernon, CA 90058</div>
+            <div style="margin-top:12px;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-family:var(--font-mono);font-size:11px;color:#33383B;font-variant-numeric:tabular-nums;">
+              <span style="color:#7A828B;">REF/DO</span><span>DO-55190</span>
+              <span style="color:#7A828B;">PHONE</span><span>(323) 555-0198</span>
+              <span style="color:#7A828B;">APPT</span><span>Tue Jul 28 · 13:00–16:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RATE TABLE -->
+        <div style="padding:20px 4px 4px;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:11px;border-bottom:1.5px solid #17242E;">
+            <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;">Description</span>
+            <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;">Amount</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid rgba(23,36,46,.13);">
+            <span style="font-family:var(--font-body);font-size:14px;color:#17242E;">Linehaul <span style="color:#7A828B;">— Portland, OR → Vernon, CA</span></span>
+            <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$2,300.00</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid rgba(23,36,46,.13);background:rgba(23,36,46,.02);">
+            <span style="font-family:var(--font-body);font-size:14px;color:#17242E;">Fuel surcharge <span style="color:#7A828B;">— 963 mi @ $0.36/mi</span></span>
+            <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$345.00</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid rgba(23,36,46,.13);">
+            <span style="font-family:var(--font-body);font-size:14px;color:#17242E;">Detention <span style="color:#7A828B;">— 1 hr @ $25.00 (Vernon)</span></span>
+            <span style="font-family:var(--font-mono);font-size:14px;color:#17242E;font-variant-numeric:tabular-nums;">$25.00</span>
+          </div>
+        </div>
+
+        <!-- TOTAL BAND (navy) -->
+        <div style="background:#17242E;color:#F3EDE0;padding:20px 26px;display:flex;justify-content:space-between;align-items:center;margin-top:18px;">
+          <div>
+            <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:rgba(243,237,224,.7);">Total due to carrier</div>
+            <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:rgba(243,237,224,.5);margin-top:5px;">All-in · USD · net 30 on signed BOL</div>
+          </div>
+          <div style="font-family:var(--font-mono);font-size:33px;font-weight:500;letter-spacing:-.01em;font-variant-numeric:tabular-nums;">$2,670.00</div>
+        </div>
+
+        <!-- PARTIES + TERMS -->
+        <div style="padding:18px 4px;">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-bottom:14px;">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Broker</div>
+              <div style="font-family:var(--font-body);font-size:13px;color:#17242E;margin-top:5px;line-height:1.45;">Northwind Freight LLC · <span style="font-family:var(--font-mono);color:#5C6771;">MC 712043</span></div>
+            </div>
+            <div>
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#7A828B;">Carrier</div>
+              <div style="font-family:var(--font-body);font-size:13px;color:#17242E;margin-top:5px;line-height:1.45;">Cascade Line Haul LLC · <span style="font-family:var(--font-mono);color:#5C6771;">MC 883147 · DOT 2946512</span></div>
+            </div>
+          </div>
+          <div style="font-family:var(--font-body);font-size:12px;line-height:1.55;color:#5C6771;">Rate is all-in and inclusive of fuel. Detention paid at $25.00/hr after 2 hours free at each stop, documented on the BOL. Carrier may not re-broker this load. Invoice with signed BOL to accounting@northwindfreight.com.</div>
+        </div>
+
+        <!-- SIGNATURE BLOCK (replaces email button) -->
+        <div style="margin-top:auto;padding-top:22px;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1.5px solid #17242E;padding-top:16px;">
+            <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;">Carrier acceptance</span>
+            <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:#7A828B;">Sign &amp; return to dispatch@northwindfreight.com</span>
+          </div>
+          <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:40px;margin-top:34px;">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#C6412A;margin-bottom:6px;">▸ Sign here</div>
+              <div style="height:30px;border-bottom:1.5px solid #17242E;"></div>
+              <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;margin-top:7px;">Authorized signature</div>
+            </div>
+            <div>
+              <div style="height:30px;border-bottom:1.5px solid #17242E;margin-top:21px;"></div>
+              <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;margin-top:7px;">Date</div>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:40px;margin-top:26px;">
+            <div>
+              <div style="height:30px;border-bottom:1px solid rgba(23,36,46,.4);"></div>
+              <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;margin-top:7px;">Print name</div>
+            </div>
+            <div>
+              <div style="height:30px;border-bottom:1px solid rgba(23,36,46,.4);"></div>
+              <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;margin-top:7px;">Driver / Truck No.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRINT FOOTER -->
+        <div style="margin-top:26px;padding-top:14px;border-top:1px solid rgba(23,36,46,.13);display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:#7A828B;">
+          <span>NORTHWIND FREIGHT · 220 SW Ash St, Suite 400 · Portland, OR 97204</span>
+          <span>NW-RC-48217 · Page 1 of 1</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============ SPEC SHEET ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2C3033;">Spec sheet</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5A5E60;">system of record</span>
+      </div>
+
+      <div style="width:560px;background:#ECE6D8;border:1px solid rgba(23,36,46,.16);padding:32px;color:#17242E;">
+
+        <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#C6412A;">Template 01 · Spec</div>
+        <div style="font-family:var(--font-display);font-size:26px;font-weight:500;letter-spacing:-.01em;margin-top:10px;">Rate Confirmation</div>
+        <div style="font-family:var(--font-body);font-size:13px;color:#5C6771;margin-top:6px;">Northwind Freight · one kraft-and-ink world, shared kit discipline.</div>
+
+        <!-- PALETTE -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 14px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">Palette</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;background:#17242E;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Ink Navy</div><div style="font-family:var(--font-body);font-size:12px;color:#5C6771;">Bands · primary text · rules</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;color:#17242E;">#17242E</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;background:#ECE6D8;border:1px solid rgba(23,36,46,.2);"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Kraft</div><div style="font-family:var(--font-body);font-size:12px;color:#5C6771;">Email ground · spec board</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;color:#17242E;">#ECE6D8</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;background:#FFFFFF;border:1px solid rgba(23,36,46,.2);"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Document White</div><div style="font-family:var(--font-body);font-size:12px;color:#5C6771;">Manifest card · paper</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;color:#17242E;">#FFFFFF</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;background:#C6412A;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Vermilion <span style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.12em;color:#fff;background:#C6412A;padding:2px 6px;vertical-align:middle;">ACCENT</span></div><div style="font-family:var(--font-body);font-size:12px;color:#5C6771;">Action &amp; status only</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;color:#17242E;">#C6412A</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;background:#5C6771;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Slate</div><div style="font-family:var(--font-body);font-size:12px;color:#5C6771;">Secondary text · captions</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;color:#17242E;">#5C6771</div>
+          </div>
+        </div>
+
+        <!-- TYPE SCALE (built as a data table) -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">Type scale</div>
+        <div style="display:grid;grid-template-columns:1.5fr 1.5fr .6fr .6fr .9fr;font-family:var(--font-mono);font-size:11px;color:#17242E;">
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;border-bottom:1.5px solid #17242E;">Role</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;border-bottom:1.5px solid #17242E;">Face</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;border-bottom:1.5px solid #17242E;text-align:right;">px</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;border-bottom:1.5px solid #17242E;text-align:right;">wt</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7A828B;border-bottom:1.5px solid #17242E;text-align:right;">track</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Lane city</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">30</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">-.01</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Total figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">33</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">tab</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Wordmark</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">18</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">.02</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Facility name</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">16</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">0</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Eyebrow / label</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">9–11</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">.18</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Body</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">Inter</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">14–15</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">400</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">0</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);font-family:var(--font-body);">Data / figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">13–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">400</div><div style="padding:9px 0;border-bottom:1px solid rgba(23,36,46,.13);text-align:right;">tab</div>
+          <div style="padding:9px 0;font-family:var(--font-body);">Legal</div><div style="padding:9px 0;">Inter</div><div style="padding:9px 0;text-align:right;">12</div><div style="padding:9px 0;text-align:right;">400</div><div style="padding:9px 0;text-align:right;">0</div>
+        </div>
+
+        <!-- SPACING -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">Spacing · 8 px grid</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;border:1px solid rgba(23,36,46,.2);padding:6px 10px;">Card pad 32</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;border:1px solid rgba(23,36,46,.2);padding:6px 10px;">Band pad 22–24</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;border:1px solid rgba(23,36,46,.2);padding:6px 10px;">Col gap 16–24</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;border:1px solid rgba(23,36,46,.2);padding:6px 10px;">Row rhythm 12</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;border:1px solid rgba(23,36,46,.2);padding:6px 10px;">Label→val 6</span>
+        </div>
+        <div style="font-family:var(--font-body);font-size:12px;color:#5C6771;margin-top:12px;line-height:1.55;">Bands sit flush and are separated by a single 1 px hairline — never a gap, never a double rule.</div>
+
+        <!-- THE ONE ACCENT -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">The one accent</div>
+        <div style="font-family:var(--font-body);font-size:13px;line-height:1.6;color:#33383B;">Vermilion <span style="font-family:var(--font-mono);color:#C6412A;">#C6412A</span> appears at exactly three moments — never as a fill, never as decoration:</div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px;">
+          <span style="background:#C6412A;color:#fff;font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;padding:6px 9px;">Signature required</span>
+          <span style="background:#C6412A;color:#fff;font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:8px 14px;border-radius:4px;">Review &amp; Accept</span>
+          <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#C6412A;">▸ Sign here</span>
+        </div>
+
+        <!-- BLOCKS USED -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">Blocks used · buildable in Elements</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Band</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Row · 2 &amp; 3-col</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Heading</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Paragraph</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Button</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Image</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Divider</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Data table</span>
+          <span style="font-family:var(--font-mono);font-size:11px;color:#17242E;background:#fff;border:1px solid rgba(23,36,46,.16);padding:6px 10px;">Social row</span>
+        </div>
+
+        <!-- ASSETS -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7A828B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(23,36,46,.16);">Exported assets</div>
+        <div style="display:flex;gap:18px;align-items:center;">
+          <div style="display:flex;align-items:center;gap:10px;background:#fff;border:1px solid rgba(23,36,46,.16);padding:10px 12px;">
+            <img src="assets/northwind-mark-ink.svg" width="30" height="30" alt="mark ink"/>
+            <span style="font-family:var(--font-mono);font-size:10px;color:#5C6771;">mark-ink.svg</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;background:#17242E;border:1px solid rgba(23,36,46,.16);padding:10px 12px;">
+            <img src="assets/northwind-mark-paper.svg" width="30" height="30" alt="mark paper"/>
+            <span style="font-family:var(--font-mono);font-size:10px;color:rgba(243,237,224,.7);">mark-paper.svg</span>
+          </div>
+        </div>
+        <div style="font-family:var(--font-body);font-size:12px;color:#5C6771;margin-top:12px;line-height:1.5;">Wordmark set live in Space Grotesk 600 — no image needed. Compass mark ships as ink + paper SVG.</div>
+
+      </div>
+    </div>
+
+  <!--ROWEND--></div></div>
+<div style="margin:0 0 120px;">    <div style="max-width:760px;margin-bottom:52px;">
+      <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#FF2D78;">Template 02 — Events</div>
+      <h1 style="font-family:var(--font-display);font-size:52px;font-weight:500;letter-spacing:-.015em;line-height:1.02;margin:16px 0 0;color:#141018;">Event Ticket</h1>
+      <p style="font-family:var(--font-body);font-size:16px;line-height:1.55;color:#33383B;max-width:600px;margin:16px 0 0;">“After-dark.” The post-purchase confirmation email and its print / wallet ticket with a scannable QR stub. Near-black, oversized display, heavy negative space — one electric-magenta accent. <strong style="color:#141018;font-weight:600;">Nightshift</strong> · a rooftop electronic showcase.</p>
+    </div>
+
+    <div style="display:flex;gap:80px;align-items:flex-start;"><!--S2ROWSTART-->
+
+      <!-- ============ EMAIL · CONFIRMATION ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Email · Confirmation</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">600 px · portrait · email-safe</span>
+        </div>
+
+        <div style="width:644px;background:#0B0B10;padding:22px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;padding:0 6px 16px;">
+            <div>
+              <div style="font-family:var(--font-body);font-size:13px;font-weight:600;color:#F4F4F8;">Nightshift <span style="font-weight:400;color:#7C7C8C;">&lt;tickets@nightshift.live&gt;</span></div>
+              <div style="font-family:var(--font-body);font-size:12px;color:#7C7C8C;margin-top:3px;">You're in — Nightshift · Sat Aug 15</div>
+            </div>
+            <a href="#" style="font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7C7C8C;white-space:nowrap;">View in browser</a>
+          </div>
+
+          <!-- DARK CARD -->
+          <div style="width:600px;background:#0B0B10;border:1px solid rgba(244,244,248,.13);">
+
+            <!-- BAND 1 · HERO -->
+            <div style="padding:32px 30px 26px;">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <img src="assets/nightshift-mark-magenta.svg" alt="Nightshift" width="30" height="30" style="display:block;"/>
+                <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#7C7C8C;">Rooftop Series · Vol. 07</span>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:#FF2D78;margin-top:30px;">You're in</div>
+              <div style="font-family:var(--font-display);font-size:62px;font-weight:500;letter-spacing:-.025em;line-height:.92;color:#F4F4F8;margin-top:12px;">Nightshift</div>
+              <div style="font-family:var(--font-body);font-size:15px;line-height:1.5;color:#9A9AAB;margin-top:16px;max-width:400px;">A rooftop electronic showcase — Kessler, Aluna Vega &amp; Midnight Republic, under the open sky.</div>
+            </div>
+            <!-- hero image (no text on image) -->
+            <div style="margin:0 30px;height:210px;background:#14141C;border:1.5px dashed rgba(255,45,120,.4);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#5A5A6E" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#6E6E82;">Photo goes here</div>
+              <div style="font-family:var(--font-body);font-size:11px;color:#5A5A6E;">Rooftop · night · crowd</div>
+            </div>
+
+            <!-- BAND 2 · ORDER CONFIRMED -->
+            <div style="padding:22px 30px;margin-top:26px;border-top:1px solid rgba(244,244,248,.12);border-bottom:1px solid rgba(244,244,248,.12);display:flex;align-items:center;gap:11px;">
+              <span style="width:7px;height:7px;border-radius:50%;background:#FF2D78;flex-shrink:0;"></span>
+              <div style="font-family:var(--font-body);font-size:13px;color:#C7C7D2;">Order <span style="font-family:var(--font-mono);color:#F4F4F8;">NS-7742</span> confirmed — sent to <span style="color:#F4F4F8;">alex@example.com</span></div>
+            </div>
+
+            <!-- BAND 3 · DETAILS (2col) -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid rgba(244,244,248,.12);">
+              <div style="padding:24px 30px;border-right:1px solid rgba(244,244,248,.12);">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#FF2D78;">Date &amp; time</div>
+                <div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:#F4F4F8;margin-top:11px;">Sat, Aug 15 2026</div>
+                <div style="font-family:var(--font-mono);font-size:12px;color:#9A9AAB;margin-top:6px;line-height:1.6;font-variant-numeric:tabular-nums;">Doors 9:00 PM<br/>Sets till 3:00 AM</div>
+              </div>
+              <div style="padding:24px 30px;">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#FF2D78;">Venue</div>
+                <div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:#F4F4F8;margin-top:11px;">The Aerie Rooftop</div>
+                <div style="font-family:var(--font-body);font-size:12px;color:#9A9AAB;margin-top:6px;line-height:1.55;">14th floor · 220 Rivington St<br/>New York, NY 10002</div>
+              </div>
+            </div>
+
+            <!-- BAND 4 · TICKET STUB (light, perforated) -->
+            <div style="padding:26px 30px;">
+              <div style="background:#F4F4F8;color:#0B0B10;border-radius:14px;display:grid;grid-template-columns:auto 1fr;overflow:hidden;">
+                <div style="padding:18px;text-align:center;border-right:2px dashed rgba(11,11,16,.22);">
+                  <img src="assets/qr-nightshift.png" alt="Scan at gate — ticket NS-7742" width="116" height="116" style="display:block;"/>
+                  <div style="font-family:var(--font-mono);font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#0B0B10;margin-top:9px;">Scan at gate</div>
+                </div>
+                <div style="padding:20px 22px;display:grid;grid-template-columns:1fr 1fr;gap:16px 12px;align-content:center;">
+                  <div><div style="font-family:var(--font-mono);font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;">Ticket</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;">General Admission</div></div>
+                  <div><div style="font-family:var(--font-mono);font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;">Admit</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;">1 · GA Standing</div></div>
+                  <div><div style="font-family:var(--font-mono);font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;">Gate</div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;">East Elevator · 14F</div></div>
+                  <div><div style="font-family:var(--font-mono);font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;">Order</div><div style="font-family:var(--font-mono);font-size:14px;font-weight:500;color:#0B0B10;margin-top:5px;font-variant-numeric:tabular-nums;">NS-7742</div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BAND 5 · BUTTONS -->
+            <div style="padding:0 30px 26px;display:flex;gap:12px;">
+              <a href="#" class="tg-btn" style="flex:1;text-align:center;background:#FF2D78;color:#0B0B10;font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:14px 16px;border-radius:8px;">Add to calendar</a>
+              <a href="#" class="tg-btn" style="flex:1;text-align:center;background:transparent;color:#F4F4F8;border:1.5px solid rgba(244,244,248,.35);font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:12.5px 16px;border-radius:8px;">View / transfer</a>
+            </div>
+
+            <!-- BAND 6 · KNOW BEFORE YOU GO -->
+            <div style="padding:24px 30px;border-top:1px solid rgba(244,244,248,.12);">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7C8C;">Know before you go</div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:14px;">
+                <div style="font-family:var(--font-body);font-size:13px;color:#C7C7D2;line-height:1.4;">21+ · valid photo ID required at the gate.</div>
+                <div style="font-family:var(--font-body);font-size:13px;color:#C7C7D2;line-height:1.4;">Rain or shine — the rooftop is covered.</div>
+                <div style="font-family:var(--font-body);font-size:13px;color:#C7C7D2;line-height:1.4;">No re-entry once you're on the roof.</div>
+                <div style="font-family:var(--font-body);font-size:13px;color:#C7C7D2;line-height:1.4;">This QR is your ticket — screenshot it.</div>
+              </div>
+            </div>
+
+            <!-- BAND 7 · FOOTER -->
+            <div style="padding:22px 30px;border-top:1px solid rgba(244,244,248,.12);">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">
+                <div style="font-family:var(--font-mono);font-size:10px;line-height:1.7;letter-spacing:.04em;color:#7C7C8C;">NIGHTSHIFT · nightshift.live<br/>The Aerie Rooftop · New York, NY</div>
+                <div style="display:flex;gap:8px;">
+                  <span style="width:26px;height:26px;border:1px solid rgba(244,244,248,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:#9A9AAB;">ig</span>
+                  <span style="width:26px;height:26px;border:1px solid rgba(244,244,248,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:#9A9AAB;">tt</span>
+                  <span style="width:26px;height:26px;border:1px solid rgba(244,244,248,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:#9A9AAB;">↗</span>
+                </div>
+              </div>
+              <div style="height:1px;background:rgba(244,244,248,.1);margin:15px 0 12px;"></div>
+              <div style="font-family:var(--font-body);font-size:11px;line-height:1.55;color:#6E6E82;">You're receiving this because you bought a ticket. Can't make it? Transfer it from your order page.</div>
+            </div>
+
+          </div>
+          <div style="text-align:center;padding:16px 6px 4px;font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;color:#7C7C8C;">
+            <a href="#" style="color:#7C7C8C;">View in browser</a> · <a href="#" style="color:#7C7C8C;">Manage tickets</a> · Nightshift, NYC
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ PRINT PDF · WALLET TICKET ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Print PDF · Wallet ticket</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">US Letter · print or save · QR stub</span>
+        </div>
+
+        <div style="width:816px;min-height:1056px;background:#FFFFFF;padding:56px 64px;border:1px solid rgba(17,20,24,.14);display:flex;flex-direction:column;">
+
+          <!-- print header -->
+          <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:20px;">
+            <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#111418;">Nightshift · Wallet ticket</span>
+            <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;color:#8A9094;font-variant-numeric:tabular-nums;">NS-7742 · Page 1 of 1</span>
+          </div>
+
+          <!-- THE TICKET CARD (dark) -->
+          <div style="background:#0B0B10;border-radius:16px;overflow:hidden;color:#F4F4F8;">
+            <div style="padding:30px 32px 24px;">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <div style="display:flex;align-items:center;gap:11px;">
+                  <img src="assets/nightshift-mark-magenta.svg" alt="Nightshift" width="30" height="30"/>
+                  <span style="font-family:var(--font-display);font-size:16px;font-weight:600;letter-spacing:.02em;color:#F4F4F8;">NIGHTSHIFT</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#0B0B10;background:#FF2D78;padding:6px 11px;border-radius:999px;">Admit one</span>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#FF2D78;margin-top:24px;">Rooftop Series · Vol. 07</div>
+              <div style="font-family:var(--font-display);font-size:58px;font-weight:500;letter-spacing:-.025em;line-height:.92;color:#F4F4F8;margin-top:10px;">Nightshift</div>
+              <div style="font-family:var(--font-body);font-size:14px;color:#9A9AAB;margin-top:12px;">Kessler · Aluna Vega · Midnight Republic — under the open sky.</div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(244,244,248,.13);">
+              <div style="padding:20px 32px;border-right:1px solid rgba(244,244,248,.13);">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#FF2D78;">Date &amp; time</div>
+                <div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:#F4F4F8;margin-top:9px;">Sat, Aug 15 2026</div>
+                <div style="font-family:var(--font-mono);font-size:12px;color:#9A9AAB;margin-top:5px;font-variant-numeric:tabular-nums;">Doors 9:00 PM · till 3:00 AM</div>
+              </div>
+              <div style="padding:20px 32px;">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#FF2D78;">Venue</div>
+                <div style="font-family:var(--font-display);font-size:17px;font-weight:600;color:#F4F4F8;margin-top:9px;">The Aerie Rooftop · 14F</div>
+                <div style="font-family:var(--font-body);font-size:12px;color:#9A9AAB;margin-top:5px;">220 Rivington St · New York, NY</div>
+              </div>
+            </div>
+
+            <!-- perforation -->
+            <div style="border-top:2px dashed rgba(244,244,248,.28);"></div>
+
+            <!-- STUB -->
+            <div style="display:grid;grid-template-columns:auto 1fr;gap:26px;padding:26px 32px 30px;align-items:center;">
+              <div style="background:#F4F4F8;border-radius:12px;padding:12px;">
+                <img src="assets/qr-nightshift.png" alt="Scan at gate — NS-7742" width="132" height="132" style="display:block;"/>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 16px;">
+                <div><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7C7C8C;">Ticket</div><div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#F4F4F8;margin-top:6px;">General Admission</div></div>
+                <div><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7C7C8C;">Admit</div><div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#F4F4F8;margin-top:6px;">1 · GA Standing</div></div>
+                <div><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7C7C8C;">Gate</div><div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#F4F4F8;margin-top:6px;">East Elevator · 14F</div></div>
+                <div><div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#7C7C8C;">Order</div><div style="font-family:var(--font-mono);font-size:15px;font-weight:500;color:#F4F4F8;margin-top:6px;font-variant-numeric:tabular-nums;">NS-7742</div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- print instructions -->
+          <div style="padding:26px 4px 0;">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#8A9094;">At the gate</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin-top:12px;">
+              <div style="font-family:var(--font-body);font-size:13px;color:#4A4F52;line-height:1.5;">Present this QR — printed or on your phone. One scan admits one.</div>
+              <div style="font-family:var(--font-body);font-size:13px;color:#4A4F52;line-height:1.5;">21+ with valid photo ID. No re-entry once on the roof.</div>
+            </div>
+          </div>
+
+          <div style="margin-top:auto;padding-top:20px;border-top:1px solid rgba(17,20,24,.13);display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;letter-spacing:.05em;color:#8A9094;">
+            <span>NIGHTSHIFT · nightshift.live</span>
+            <span>Cut along the dashed line for a wallet stub</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ============ SPEC SHEET ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Spec sheet</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">system of record</span>
+        </div>
+
+        <div style="width:560px;background:#12121A;border:1px solid rgba(244,244,248,.14);padding:32px;color:#F4F4F8;">
+
+          <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#FF2D78;">Template 02 · Spec</div>
+          <div style="font-family:var(--font-display);font-size:26px;font-weight:500;letter-spacing:-.01em;margin-top:10px;">Event Ticket</div>
+          <div style="font-family:var(--font-body);font-size:13px;color:#9A9AAB;margin-top:6px;">Nightshift · after-dark, oversized display, one electric accent. Same kit, its own world.</div>
+
+          <!-- PALETTE -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 14px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">Palette</div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#0B0B10;border:1px solid rgba(244,244,248,.22);"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Near-Black</div><div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;">Ground · ticket</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;color:#C7C7D2;">#0B0B10</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#14141C;border:1px solid rgba(244,244,248,.22);"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Panel</div><div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;">Insets · hero image</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;color:#C7C7D2;">#14141C</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#FF2D78;"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Magenta <span style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.12em;color:#0B0B10;background:#FF2D78;padding:2px 6px;vertical-align:middle;">ACCENT</span></div><div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;">The one spark · meaning only</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;color:#C7C7D2;">#FF2D78</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#F4F4F8;border:1px solid rgba(244,244,248,.22);"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">White</div><div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;">Text · the light QR stub</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;color:#C7C7D2;">#F4F4F8</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#8E8EA0;"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Muted</div><div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;">Secondary text</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;color:#C7C7D2;">#8E8EA0</div>
+            </div>
+          </div>
+
+          <!-- TYPE SCALE -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">Type scale</div>
+          <div style="display:grid;grid-template-columns:1.5fr 1.5fr .6fr .6fr .9fr;font-family:var(--font-mono);font-size:11px;color:#E7E7EE;">
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8E8EA0;border-bottom:1.5px solid #F4F4F8;">Role</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8E8EA0;border-bottom:1.5px solid #F4F4F8;">Face</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8E8EA0;border-bottom:1.5px solid #F4F4F8;text-align:right;">px</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8E8EA0;border-bottom:1.5px solid #F4F4F8;text-align:right;">wt</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8E8EA0;border-bottom:1.5px solid #F4F4F8;text-align:right;">track</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Event hero</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">62</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">-.025</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Detail head</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">17</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">0</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Wordmark</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">16</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">.02</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Eyebrow</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">10–11</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">.30</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Body</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">Inter</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">13–15</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">400</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">0</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);font-family:var(--font-body);">Label / figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">8–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(244,244,248,.12);text-align:right;">tab</div>
+            <div style="padding:9px 0;font-family:var(--font-body);">Legal</div><div style="padding:9px 0;">Inter</div><div style="padding:9px 0;text-align:right;">11–12</div><div style="padding:9px 0;text-align:right;">400</div><div style="padding:9px 0;text-align:right;">0</div>
+          </div>
+
+          <!-- SPACING -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">Spacing · 8 px grid</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(244,244,248,.24);padding:6px 10px;">Card pad 30</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(244,244,248,.24);padding:6px 10px;">Band pad 20–24</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(244,244,248,.24);padding:6px 10px;">Ticket r 14–16</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(244,244,248,.24);padding:6px 10px;">Button r 8</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(244,244,248,.24);padding:6px 10px;">Perf 2px dashed</span>
+          </div>
+          <div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;margin-top:12px;line-height:1.55;">Heavy negative space is the point — the hero breathes. The QR sits on a light stub so it always scans against the dark.</div>
+
+          <!-- THE ONE ACCENT -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">The one accent</div>
+          <div style="font-family:var(--font-body);font-size:13px;line-height:1.6;color:#C7C7D2;">Magenta <span style="font-family:var(--font-mono);color:#FF2D78;">#FF2D78</span> is a spark, not a flood — “You're in”, the mark, section labels, the order dot, and the add-to-calendar action.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px;">
+            <span style="background:#FF2D78;color:#0B0B10;font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:9px 14px;border-radius:8px;">Add to calendar</span>
+            <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#FF2D78;">You're in</span>
+            <span style="display:inline-flex;align-items:center;gap:7px;font-family:var(--font-mono);font-size:11px;color:#C7C7D2;"><span style="width:8px;height:8px;border-radius:50%;background:#FF2D78;"></span>Confirmed</span>
+          </div>
+
+          <!-- BLOCKS USED -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">Blocks used · buildable in Elements</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Band</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Row · 2 &amp; 3-col</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Heading</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Paragraph</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Button</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Image</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Divider · perforation</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Data table</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:6px 10px;">Social row</span>
+          </div>
+
+          <!-- ASSETS -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8E8EA0;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(244,244,248,.14);">Exported assets</div>
+          <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+            <div style="display:flex;align-items:center;gap:9px;background:#1B1B24;border:1px solid rgba(244,244,248,.16);padding:9px 11px;">
+              <img src="assets/nightshift-mark-magenta.svg" width="24" height="24" alt="mark"/>
+              <span style="font-family:var(--font-mono);font-size:10px;color:#9A9AAB;">mark-magenta.svg</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:9px;background:#F4F4F8;border:1px solid rgba(244,244,248,.16);padding:8px 11px;">
+              <img src="assets/qr-nightshift.png" width="26" height="26" alt="qr"/>
+              <span style="font-family:var(--font-mono);font-size:10px;color:#3A3A44;">qr-nightshift.png</span>
+            </div>
+          </div>
+          <div style="font-family:var(--font-body);font-size:12px;color:#8E8EA0;margin-top:12px;line-height:1.5;">Hero is a placeholder — drop in a rooftop night shot (no text baked in). QR encodes the live ticket URL and scans off the light stub.</div>
+
+        </div>
+      </div>
+
+    <!--S2ROWEND--></div></div>
+<div style="margin:0 0 120px;">    <div style="max-width:760px;margin-bottom:52px;">
+      <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#1E3A5F;">Template 03 — Payments</div>
+      <h1 style="font-family:var(--font-display);font-size:52px;font-weight:500;letter-spacing:-.015em;line-height:1.02;margin:16px 0 0;color:#111418;">Invoice &amp; Receipt</h1>
+      <p style="font-family:var(--font-body);font-size:16px;line-height:1.55;color:#33383B;max-width:600px;margin:16px 0 0;">“Swiss ledger.” The receipt emailed on payment, and the downloadable PDF invoice. Crisp International style — cool white, hairline rules, tabular numbers, the paid amount as hero. <strong style="color:#111418;font-weight:600;">Loomly Studio</strong> · one ink-blue accent, paid-status only.</p>
+    </div>
+
+    <div style="display:flex;gap:80px;align-items:flex-start;"><!--S3ROWSTART-->
+
+      <!-- ============ EMAIL · RECEIPT ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Email · Receipt</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">600 px · portrait · email-safe</span>
+        </div>
+
+        <div style="width:644px;background:#EEF1F2;padding:22px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;padding:0 6px 16px;">
+            <div>
+              <div style="font-family:var(--font-body);font-size:13px;font-weight:600;color:#111418;">Loomly Studio <span style="font-weight:400;color:#8A9094;">&lt;receipts@loomly.studio&gt;</span></div>
+              <div style="font-family:var(--font-body);font-size:12px;color:#8A9094;margin-top:3px;">Receipt — Studio plan · $128.00 paid</div>
+            </div>
+            <a href="#" style="font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8A9094;white-space:nowrap;">View in browser</a>
+          </div>
+
+          <!-- WHITE CARD (sharp corners) -->
+          <div style="width:600px;background:#FFFFFF;border:1px solid rgba(17,20,24,.14);">
+
+            <!-- BAND 1 · HEADER (2col) -->
+            <div style="padding:26px 32px;border-bottom:1px solid rgba(17,20,24,.13);display:grid;grid-template-columns:1fr auto;gap:20px;align-items:start;">
+              <div>
+                <div style="display:flex;align-items:center;gap:11px;">
+                  <img src="assets/loomly-mark-ink.svg" alt="Loomly Studio" width="28" height="28" style="display:block;"/>
+                  <div style="font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:-.01em;color:#111418;">Loomly Studio</div>
+                </div>
+                <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#1E3A5F;margin-top:18px;">Receipt</div>
+                <div style="font-family:var(--font-body);font-size:12px;color:#6B7378;margin-top:5px;">Thanks — your payment went through.</div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;">Invoice No.</div>
+                <div style="font-family:var(--font-mono);font-size:13px;color:#111418;margin-top:4px;font-variant-numeric:tabular-nums;">LM-2026-0417</div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin-top:11px;">Issued</div>
+                <div style="font-family:var(--font-mono);font-size:13px;color:#111418;margin-top:4px;font-variant-numeric:tabular-nums;">Jul 24 2026</div>
+                <img src="assets/paid-stamp.svg" alt="Paid" width="102" height="45" style="display:block;margin:14px 0 0 auto;"/>
+              </div>
+            </div>
+
+            <!-- BAND 2 · AMOUNT HERO (centered) -->
+            <div style="padding:44px 32px;text-align:center;border-bottom:1px solid rgba(17,20,24,.13);">
+              <img src="assets/check.svg" alt="" width="40" height="40" style="display:inline-block;"/>
+              <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#1E3A5F;margin-top:14px;">Paid in full</div>
+              <div style="font-family:var(--font-mono);font-size:54px;font-weight:500;letter-spacing:-.02em;color:#111418;margin-top:8px;font-variant-numeric:tabular-nums;">$128.00</div>
+              <div style="font-family:var(--font-body);font-size:14px;color:#4A4F52;margin-top:12px;">Studio plan · August 2026</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#8A9094;margin-top:5px;">Paid Jul 24, 2026 · Visa •••• 4242</div>
+            </div>
+
+            <!-- BAND 3 · PARTIES (2col) -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid rgba(17,20,24,.13);">
+              <div style="padding:24px 32px;border-right:1px solid rgba(17,20,24,.13);">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">01</span> &nbsp;Billed to</div>
+                <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#111418;margin-top:12px;">Meridian Labs, Inc.</div>
+                <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4F52;margin-top:5px;">88 Kearny St, Suite 400<br/>San Francisco, CA 94108</div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:#8A9094;margin-top:10px;font-variant-numeric:tabular-nums;">Tax ID · 47-6021894</div>
+              </div>
+              <div style="padding:24px 32px;">
+                <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">02</span> &nbsp;From</div>
+                <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#111418;margin-top:12px;">Loomly Studio, Inc.</div>
+                <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4F52;margin-top:5px;">55 Washington St, Suite 210<br/>Brooklyn, NY 11201</div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:#8A9094;margin-top:10px;font-variant-numeric:tabular-nums;">Tax ID · 88-2140736</div>
+              </div>
+            </div>
+
+            <!-- BAND 4 · LINE ITEMS -->
+            <div style="padding:24px 32px 8px;">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">03</span> &nbsp;Items</div>
+              <div style="display:grid;grid-template-columns:1fr 34px 66px 74px;gap:10px;padding:14px 0 10px;margin-top:6px;border-bottom:1.5px solid #111418;font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#111418;">
+                <span>Description</span><span style="text-align:right;">Qty</span><span style="text-align:right;">Unit</span><span style="text-align:right;">Amount</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 34px 66px 74px;gap:10px;padding:13px 0;border-bottom:1px solid rgba(17,20,24,.12);align-items:baseline;">
+                <span style="font-family:var(--font-body);font-size:14px;color:#111418;">Studio plan <span style="color:#8A9094;">— monthly, Aug 2026</span></span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">1</span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#4A4F52;text-align:right;font-variant-numeric:tabular-nums;">$96.00</span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">$96.00</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 34px 66px 74px;gap:10px;padding:13px 0;border-bottom:1px solid rgba(17,20,24,.12);align-items:baseline;">
+                <span style="font-family:var(--font-body);font-size:14px;color:#111418;">Additional editor seat</span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">2</span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#4A4F52;text-align:right;font-variant-numeric:tabular-nums;">$12.00</span>
+                <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">$24.00</span>
+              </div>
+              <div style="display:flex;justify-content:flex-end;padding-top:14px;">
+                <div style="width:240px;">
+                  <div style="display:flex;justify-content:space-between;padding:7px 0;font-family:var(--font-body);font-size:13px;color:#4A4F52;"><span>Subtotal</span><span style="font-family:var(--font-mono);color:#111418;font-variant-numeric:tabular-nums;">$120.00</span></div>
+                  <div style="display:flex;justify-content:space-between;padding:7px 0;font-family:var(--font-body);font-size:13px;color:#4A4F52;border-bottom:1px solid rgba(17,20,24,.12);"><span>Tax</span><span style="font-family:var(--font-mono);color:#111418;font-variant-numeric:tabular-nums;">$8.00</span></div>
+                  <div style="display:flex;justify-content:space-between;align-items:baseline;padding:12px 0 0;"><span style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#111418;">Total paid</span><span style="font-family:var(--font-mono);font-size:19px;font-weight:500;color:#111418;font-variant-numeric:tabular-nums;">$128.00</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BAND 5 · PAYMENT METHOD -->
+            <div style="padding:22px 32px;border-top:1px solid rgba(17,20,24,.13);border-bottom:1px solid rgba(17,20,24,.13);">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">04</span> &nbsp;Payment method</div>
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:13px;">
+                <div style="display:flex;align-items:center;gap:11px;">
+                  <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.12em;color:#111418;border:1px solid rgba(17,20,24,.28);padding:4px 8px;">VISA</span>
+                  <span style="font-family:var(--font-body);font-size:14px;color:#111418;">Visa •••• 4242</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:12px;color:#6B7378;font-variant-numeric:tabular-nums;">Charged Jul 24, 2026</span>
+              </div>
+            </div>
+
+            <!-- BAND 6 · DOWNLOAD BUTTON -->
+            <div style="padding:26px 32px;text-align:center;">
+              <a href="#" class="nw-cta" style="display:inline-block;background:#1E3A5F;color:#fff;font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:14px 30px;border-radius:2px;">Download PDF invoice</a>
+            </div>
+
+            <!-- BAND 7 · FOOTER -->
+            <div style="padding:22px 32px;border-top:1px solid rgba(17,20,24,.13);">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">
+                <div style="font-family:var(--font-mono);font-size:10px;line-height:1.7;letter-spacing:.03em;color:#6B7378;">LOOMLY STUDIO, INC. · TAX ID 88-2140736<br/>55 Washington St, Suite 210 · Brooklyn, NY 11201</div>
+                <div style="display:flex;gap:8px;">
+                  <span style="width:26px;height:26px;border:1px solid rgba(17,20,24,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:#6B7378;">in</span>
+                  <span style="width:26px;height:26px;border:1px solid rgba(17,20,24,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:#6B7378;">X</span>
+                  <span style="width:26px;height:26px;border:1px solid rgba(17,20,24,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:#6B7378;">↗</span>
+                </div>
+              </div>
+              <div style="height:1px;background:rgba(17,20,24,.1);margin:15px 0 12px;"></div>
+              <div style="font-family:var(--font-body);font-size:11px;line-height:1.55;color:#8A9094;">VAT not applicable — U.S. vendor. Questions about this receipt? <span style="color:#1E3A5F;">receipts@loomly.studio</span></div>
+            </div>
+
+          </div>
+          <div style="text-align:center;padding:16px 6px 4px;font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;color:#8A9094;">
+            <a href="#" style="color:#8A9094;">View in browser</a> · <a href="#" style="color:#8A9094;">Billing settings</a> · Loomly Studio, Brooklyn NY
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ PRINT PDF · INVOICE ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Print PDF · Invoice</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">US Letter · 8.5 × 11 in · downloadable</span>
+        </div>
+
+        <div style="width:816px;min-height:1056px;background:#FFFFFF;padding:60px 68px;border:1px solid rgba(17,20,24,.14);display:flex;flex-direction:column;">
+
+          <!-- HEADER (2col) -->
+          <div style="display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start;padding-bottom:24px;border-bottom:1.5px solid #111418;">
+            <div>
+              <div style="display:flex;align-items:center;gap:11px;">
+                <img src="assets/loomly-mark-ink.svg" alt="Loomly Studio" width="30" height="30" style="display:block;"/>
+                <div style="font-family:var(--font-display);font-size:19px;font-weight:600;letter-spacing:-.01em;color:#111418;">Loomly Studio</div>
+              </div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#6B7378;margin-top:14px;">55 Washington St, Suite 210<br/>Brooklyn, NY 11201 · loomly.studio</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-family:var(--font-display);font-size:30px;font-weight:500;letter-spacing:.01em;color:#111418;line-height:1;">Invoice</div>
+              <div style="display:grid;grid-template-columns:auto auto;gap:5px 14px;justify-content:end;margin-top:14px;font-family:var(--font-mono);font-size:11px;font-variant-numeric:tabular-nums;">
+                <span style="color:#8A9094;">No.</span><span style="color:#111418;">LM-2026-0417</span>
+                <span style="color:#8A9094;">Issued</span><span style="color:#111418;">Jul 24 2026</span>
+                <span style="color:#8A9094;">Period</span><span style="color:#111418;">Aug 1–31 2026</span>
+              </div>
+              <img src="assets/paid-stamp.svg" alt="Paid" width="112" height="49" style="display:block;margin:16px 0 0 auto;"/>
+            </div>
+          </div>
+
+          <!-- PARTIES -->
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:26px 0;border-bottom:1px solid rgba(17,20,24,.13);">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">01</span> &nbsp;Billed to</div>
+              <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#111418;margin-top:11px;">Meridian Labs, Inc.</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4F52;margin-top:5px;">88 Kearny St, Suite 400 · San Francisco, CA 94108</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#8A9094;margin-top:9px;font-variant-numeric:tabular-nums;">Tax ID · 47-6021894</div>
+            </div>
+            <div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">02</span> &nbsp;From</div>
+              <div style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#111418;margin-top:11px;">Loomly Studio, Inc.</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4F52;margin-top:5px;">55 Washington St, Suite 210 · Brooklyn, NY 11201</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#8A9094;margin-top:9px;font-variant-numeric:tabular-nums;">Tax ID · 88-2140736</div>
+            </div>
+          </div>
+
+          <!-- LINE ITEMS -->
+          <div style="padding:24px 0 6px;">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">03</span> &nbsp;Items</div>
+            <div style="display:grid;grid-template-columns:1fr 40px 90px 100px;gap:12px;padding:14px 0 10px;margin-top:6px;border-bottom:1.5px solid #111418;font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#111418;">
+              <span>Description</span><span style="text-align:right;">Qty</span><span style="text-align:right;">Unit</span><span style="text-align:right;">Amount</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 40px 90px 100px;gap:12px;padding:14px 0;border-bottom:1px solid rgba(17,20,24,.12);align-items:baseline;">
+              <span style="font-family:var(--font-body);font-size:14px;color:#111418;">Studio plan <span style="color:#8A9094;">— monthly subscription, August 2026</span></span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">1</span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#4A4F52;text-align:right;font-variant-numeric:tabular-nums;">$96.00</span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">$96.00</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 40px 90px 100px;gap:12px;padding:14px 0;border-bottom:1px solid rgba(17,20,24,.12);align-items:baseline;">
+              <span style="font-family:var(--font-body);font-size:14px;color:#111418;">Additional editor seat <span style="color:#8A9094;">— prorated</span></span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">2</span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#4A4F52;text-align:right;font-variant-numeric:tabular-nums;">$12.00</span>
+              <span style="font-family:var(--font-mono);font-size:13px;color:#111418;text-align:right;font-variant-numeric:tabular-nums;">$24.00</span>
+            </div>
+            <div style="display:flex;justify-content:flex-end;padding-top:16px;">
+              <div style="width:280px;">
+                <div style="display:flex;justify-content:space-between;padding:8px 0;font-family:var(--font-body);font-size:13px;color:#4A4F52;"><span>Subtotal</span><span style="font-family:var(--font-mono);color:#111418;font-variant-numeric:tabular-nums;">$120.00</span></div>
+                <div style="display:flex;justify-content:space-between;padding:8px 0;font-family:var(--font-body);font-size:13px;color:#4A4F52;border-bottom:1px solid rgba(17,20,24,.12);"><span>Tax</span><span style="font-family:var(--font-mono);color:#111418;font-variant-numeric:tabular-nums;">$8.00</span></div>
+                <div style="display:flex;justify-content:space-between;align-items:baseline;padding:13px 0 0;"><span style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#111418;">Total</span><span style="font-family:var(--font-mono);font-size:21px;font-weight:500;color:#111418;font-variant-numeric:tabular-nums;">$128.00</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PAID STATUS BAND -->
+          <div style="display:flex;align-items:center;gap:16px;padding:18px 22px;border:1px solid rgba(30,58,95,.35);margin-top:22px;">
+            <img src="assets/check.svg" alt="" width="34" height="34" style="display:block;flex-shrink:0;"/>
+            <div style="flex:1;">
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#1E3A5F;">Paid in full</div>
+              <div style="font-family:var(--font-body);font-size:13px;color:#4A4F52;margin-top:4px;">Settled Jul 24, 2026 · Visa •••• 4242 · No payment due.</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:20px;font-weight:500;color:#111418;font-variant-numeric:tabular-nums;">$128.00</div>
+          </div>
+
+          <!-- NOTES -->
+          <div style="padding:22px 0 0;">
+            <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;"><span style="color:#1E3A5F;">04</span> &nbsp;Notes</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.6;color:#4A4F52;margin-top:10px;">Thank you for your business. This invoice has been paid in full — no remittance required. Retain for your records. VAT not applicable; Loomly Studio, Inc. is a U.S. vendor (Tax ID 88-2140736).</div>
+          </div>
+
+          <!-- FOOTER -->
+          <div style="margin-top:auto;padding-top:20px;border-top:1px solid rgba(17,20,24,.13);display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;letter-spacing:.05em;color:#8A9094;">
+            <span>LOOMLY STUDIO, INC. · receipts@loomly.studio</span>
+            <span>LM-2026-0417 · Page 1 of 1</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ============ SPEC SHEET ============ -->
+      <div style="display:flex;flex-direction:column;">
+        <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+          <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#26292B;">Spec sheet</span>
+          <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#54585A;">system of record</span>
+        </div>
+
+        <div style="width:560px;background:#FFFFFF;border:1px solid rgba(17,20,24,.16);padding:32px;color:#111418;">
+
+          <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#1E3A5F;">Template 03 · Spec</div>
+          <div style="font-family:var(--font-display);font-size:26px;font-weight:500;letter-spacing:-.01em;margin-top:10px;">Invoice &amp; Receipt</div>
+          <div style="font-family:var(--font-body);font-size:13px;color:#6B7378;margin-top:6px;">Loomly Studio · Swiss/International — cool white, hairlines, tabular. Same kit, its own world.</div>
+
+          <!-- PALETTE -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 14px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">Palette</div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#EEF1F2;border:1px solid rgba(17,20,24,.2);"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Cool White</div><div style="font-family:var(--font-body);font-size:12px;color:#6B7378;">Email ground</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;">#EEF1F2</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#FFFFFF;border:1px solid rgba(17,20,24,.2);"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">White</div><div style="font-family:var(--font-body);font-size:12px;color:#6B7378;">Card · invoice paper</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;">#FFFFFF</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#111418;"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Ink</div><div style="font-family:var(--font-body);font-size:12px;color:#6B7378;">Text · rules · total</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;">#111418</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#1E3A5F;"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Ink-Blue <span style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.12em;color:#fff;background:#1E3A5F;padding:2px 6px;vertical-align:middle;">ACCENT</span></div><div style="font-family:var(--font-body);font-size:12px;color:#6B7378;">Paid status only</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;">#1E3A5F</div>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+              <div style="width:34px;height:34px;background:#6B7378;"></div>
+              <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Slate</div><div style="font-family:var(--font-body);font-size:12px;color:#6B7378;">Secondary text</div></div>
+              <div style="font-family:var(--font-mono);font-size:12px;">#6B7378</div>
+            </div>
+          </div>
+
+          <!-- TYPE SCALE -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">Type scale</div>
+          <div style="display:grid;grid-template-columns:1.5fr 1.5fr .6fr .6fr .9fr;font-family:var(--font-mono);font-size:11px;color:#111418;">
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;border-bottom:1.5px solid #111418;">Role</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;border-bottom:1.5px solid #111418;">Face</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;border-bottom:1.5px solid #111418;text-align:right;">px</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;border-bottom:1.5px solid #111418;text-align:right;">wt</div>
+            <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A9094;border-bottom:1.5px solid #111418;text-align:right;">track</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Amount hero</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">54</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">tab</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Invoice title</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">30</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">0</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Wordmark</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">18</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">-.01</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Section no./label</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">10–11</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">.18</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Body</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">Inter</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">13–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">400</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">0</div>
+            <div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);font-family:var(--font-body);">Figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">13–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(17,20,24,.12);text-align:right;">tab</div>
+            <div style="padding:9px 0;font-family:var(--font-body);">Legal</div><div style="padding:9px 0;">Inter</div><div style="padding:9px 0;text-align:right;">11–12</div><div style="padding:9px 0;text-align:right;">400</div><div style="padding:9px 0;text-align:right;">0</div>
+          </div>
+
+          <!-- SPACING -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">Spacing · 8 px grid</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(17,20,24,.2);padding:6px 10px;">Card pad 32</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(17,20,24,.2);padding:6px 10px;">Hero pad 44</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(17,20,24,.2);padding:6px 10px;">Band pad 22–26</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(17,20,24,.2);padding:6px 10px;">Col gap 24</span>
+            <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(17,20,24,.2);padding:6px 10px;">Corners r 0–2</span>
+          </div>
+          <div style="font-family:var(--font-body);font-size:12px;color:#6B7378;margin-top:12px;line-height:1.55;">Sharp corners, generous whitespace, numbered sections (01–04). The total sits under a 1.5 px ink rule; everything else is hairline.</div>
+
+          <!-- THE ONE ACCENT -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">The one accent</div>
+          <div style="font-family:var(--font-body);font-size:13px;line-height:1.6;color:#4A4F52;">Ink-blue <span style="font-family:var(--font-mono);color:#1E3A5F;">#1E3A5F</span> marks paid-status only — the check, the PAID stamp, section numbers, and the download action. Never a fill.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px;">
+            <img src="assets/check.svg" alt="" width="26" height="26"/>
+            <img src="assets/paid-stamp.svg" alt="" width="84" height="37"/>
+            <span style="background:#1E3A5F;color:#fff;font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:8px 13px;border-radius:2px;">Download PDF</span>
+          </div>
+
+          <!-- BLOCKS USED -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">Blocks used · buildable in Elements</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Band</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Row · 2 &amp; 3-col</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Heading</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Paragraph</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Button</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Image</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Divider</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Data table</span>
+            <span style="font-family:var(--font-mono);font-size:11px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:6px 10px;">Social row</span>
+          </div>
+
+          <!-- ASSETS -->
+          <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A9094;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(17,20,24,.14);">Exported assets</div>
+          <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+            <div style="display:flex;align-items:center;gap:9px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:9px 11px;">
+              <img src="assets/loomly-mark-ink.svg" width="24" height="24" alt="mark"/>
+              <span style="font-family:var(--font-mono);font-size:10px;color:#6B7378;">loomly-mark.svg</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:9px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:9px 11px;">
+              <img src="assets/paid-stamp.svg" width="46" height="20" alt="stamp"/>
+              <span style="font-family:var(--font-mono);font-size:10px;color:#6B7378;">paid-stamp.svg</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:9px;background:#F4F6F7;border:1px solid rgba(17,20,24,.14);padding:9px 11px;">
+              <img src="assets/check.svg" width="22" height="22" alt="check"/>
+              <span style="font-family:var(--font-mono);font-size:10px;color:#6B7378;">check.svg</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!--S3ROWEND--></div></div>
+<div style="margin:0 0 40px;"><div style="max-width:760px;margin-bottom:52px;">
+    <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#4C4A3E;">Template 04 — Retail</div>
+    <h1 style="font-family:var(--font-display);font-size:52px;font-weight:500;letter-spacing:-.015em;line-height:1.02;margin:16px 0 0;color:#2F5D50;">Order Confirmation</h1>
+    <p style="font-family:var(--font-body);font-size:16px;line-height:1.55;color:#3B3D33;max-width:600px;margin:16px 0 0;">“Trail retail.” The order-confirmation email a shopper gets — and the packing slip that ships in the box. Warm, tactile, product-forward. <strong style="color:#2F5D50;font-weight:600;">Trailhead Goods</strong> · one rust accent, action &amp; status only.</p>
+  </div>
+
+  <div style="display:flex;gap:80px;align-items:flex-start;"><!--ROWSTART-->
+
+    <!-- ============ EMAIL ARTBOARD ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2E3129;">Email</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#57594C;">600 px · portrait · email-safe</span>
+      </div>
+
+      <div style="width:644px;background:#EFE9DB;padding:22px;">
+        <!-- email client meta -->
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;padding:0 6px 16px;">
+          <div>
+            <div style="font-family:var(--font-body);font-size:13px;font-weight:600;color:#2F5D50;">Trailhead Goods <span style="font-weight:400;color:#8A8574;">&lt;hello@trailheadgoods.com&gt;</span></div>
+            <div style="font-family:var(--font-body);font-size:12px;color:#8A8574;margin-top:3px;">Your Trailhead order is confirmed — TH-100482</div>
+          </div>
+          <a href="#" style="font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8A8574;white-space:nowrap;">View in browser</a>
+        </div>
+
+        <!-- WARM WHITE CARD -->
+        <div style="width:600px;background:#FBF8F1;border:1px solid rgba(47,93,80,.16);border-radius:16px;overflow:hidden;">
+
+          <!-- BAND 1 · HEADER (green) -->
+          <div style="background:#2F5D50;color:#F1EBDD;padding:22px 28px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div style="display:flex;align-items:center;gap:12px;">
+                <img src="assets/trailhead-mark-cream.svg" alt="Trailhead Goods mark" width="34" height="34" style="display:block;"/>
+                <div style="line-height:1;">
+                  <div style="font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:.03em;">TRAILHEAD</div>
+                  <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.32em;color:rgba(241,235,221,.62);margin-top:5px;">GOODS · OUTFITTERS</div>
+                </div>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <span style="width:7px;height:7px;border-radius:50%;background:#E88A4E;display:inline-block;"></span>
+                <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#F1EBDD;">Order confirmed</span>
+              </div>
+            </div>
+            <div style="height:1px;background:rgba(241,235,221,.2);margin:18px 0 14px;"></div>
+            <div style="display:flex;gap:40px;">
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(241,235,221,.55);">Order No.</div>
+                <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;margin-top:5px;font-variant-numeric:tabular-nums;">TH-100482</div>
+              </div>
+              <div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(241,235,221,.55);">Placed</div>
+                <div style="font-family:var(--font-mono);font-size:14px;font-weight:500;margin-top:5px;font-variant-numeric:tabular-nums;">Jul 24 2026</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAND 2 · GREETING HERO (2col) -->
+          <div style="padding:28px;display:grid;grid-template-columns:1.25fr 1fr;gap:24px;align-items:center;border-bottom:1px solid rgba(47,93,80,.14);">
+            <div>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#C7622B;">Thanks for shopping</div>
+              <div style="font-family:var(--font-display);font-size:38px;font-weight:500;letter-spacing:-.015em;line-height:1.04;color:#2F5D50;margin-top:12px;">Your order's on the way.</div>
+              <p style="font-family:var(--font-body);font-size:14px;line-height:1.55;color:#4A4C40;margin:12px 0 0;">Thanks, Alex — we've got it and it's being packed. Tracking lands in your inbox the moment it ships.</p>
+              <div style="display:inline-flex;align-items:center;gap:8px;margin-top:16px;border:1px solid rgba(47,93,80,.28);border-radius:999px;padding:7px 13px;">
+                <span style="width:6px;height:6px;border-radius:50%;background:#C7622B;"></span>
+                <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;color:#33352C;font-variant-numeric:tabular-nums;">Est. delivery · Jul 29–31</span>
+              </div>
+            </div>
+            <div style="border:1.5px dashed rgba(47,93,80,.3);border-radius:12px;background:#EEEBE0;min-height:186px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+              <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8B927F;">Photo goes here</div>
+              <div style="font-family:var(--font-body);font-size:11px;color:#A1A08F;">Lifestyle · on-trail</div>
+            </div>
+          </div>
+
+          <!-- BAND 3 · ITEMS TABLE (thumbnails) -->
+          <div style="padding:24px 28px 8px;">
+            <div style="display:grid;grid-template-columns:1fr auto auto;gap:16px;padding-bottom:12px;border-bottom:1.5px solid #2F5D50;font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#2F5D50;">
+              <span>Item</span><span style="text-align:center;width:44px;">Qty</span><span style="text-align:right;width:78px;">Price</span>
+            </div>
+            <!-- item 1 -->
+            <div style="display:grid;grid-template-columns:auto 1fr auto auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(47,93,80,.14);">
+              <div style="width:56px;height:56px;border-radius:10px;border:1.5px dashed rgba(47,93,80,.3);background:#EEEBE0;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+              </div>
+              <div>
+                <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Cascade 3L Rain Shell</div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:4px;">Spruce · Men's M · SKU CAS-3L-SPM</div>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:44px;text-align:center;font-variant-numeric:tabular-nums;">1</div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:78px;text-align:right;font-variant-numeric:tabular-nums;">$189.00</div>
+            </div>
+            <!-- item 2 -->
+            <div style="display:grid;grid-template-columns:auto 1fr auto auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(47,93,80,.14);">
+              <div style="width:56px;height:56px;border-radius:10px;border:1.5px dashed rgba(47,93,80,.3);background:#EEEBE0;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+              </div>
+              <div>
+                <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Ridgeline Merino Crew</div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:4px;">Oatmeal · Women's S · SKU RDG-MC-OS</div>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:44px;text-align:center;font-variant-numeric:tabular-nums;">1</div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:78px;text-align:right;font-variant-numeric:tabular-nums;">$78.00</div>
+            </div>
+            <!-- item 3 -->
+            <div style="display:grid;grid-template-columns:auto 1fr auto auto;gap:14px;align-items:center;padding:14px 0;">
+              <div style="width:56px;height:56px;border-radius:10px;border:1.5px dashed rgba(47,93,80,.3);background:#EEEBE0;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+              </div>
+              <div>
+                <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Switchback Trail Crew Sock</div>
+                <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:4px;">Moss · L · $18.00 ea · SKU SWB-SK-ML</div>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:44px;text-align:center;font-variant-numeric:tabular-nums;">2</div>
+              <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;width:78px;text-align:right;font-variant-numeric:tabular-nums;">$36.00</div>
+            </div>
+          </div>
+
+          <!-- BAND 4 · TOTALS -->
+          <div style="padding:6px 28px 24px;display:flex;justify-content:flex-end;">
+            <div style="width:280px;">
+              <div style="display:flex;justify-content:space-between;padding:8px 0;font-family:var(--font-body);font-size:13px;color:#4A4C40;">
+                <span>Subtotal</span><span style="font-family:var(--font-mono);color:#33352C;font-variant-numeric:tabular-nums;">$303.00</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;padding:8px 0;font-family:var(--font-body);font-size:13px;color:#4A4C40;">
+                <span>Shipping <span style="color:#7C7A6B;">· over $150</span></span><span style="font-family:var(--font-mono);color:#2F5D50;font-weight:500;letter-spacing:.06em;">FREE</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;padding:8px 0;font-family:var(--font-body);font-size:13px;color:#4A4C40;border-bottom:1px solid rgba(47,93,80,.14);">
+                <span>Estimated tax <span style="color:#7C7A6B;">· CO</span></span><span style="font-family:var(--font-mono);color:#33352C;font-variant-numeric:tabular-nums;">$26.69</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:baseline;padding:14px 0 0;">
+                <span style="font-family:var(--font-display);font-size:16px;font-weight:600;color:#2F5D50;">Total</span><span style="font-family:var(--font-mono);font-size:22px;font-weight:500;color:#2F5D50;font-variant-numeric:tabular-nums;">$329.69</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAND 5 · ADDRESSES (2col) -->
+          <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(47,93,80,.14);">
+            <div style="padding:22px 28px;border-right:1px solid rgba(47,93,80,.14);">
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;">Ship to</div>
+              <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;margin-top:10px;">Alex Rivera</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4C40;margin-top:4px;">1450 Pearl St, Apt 3<br/>Denver, CO 80203</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:10px;">Standard · 3–5 business days</div>
+            </div>
+            <div style="padding:22px 28px;">
+              <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;">Billing</div>
+              <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;margin-top:10px;">Same as shipping</div>
+              <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4C40;margin-top:4px;">Visa ending <span style="font-family:var(--font-mono);">4242</span><br/>Charged Jul 24 2026</div>
+            </div>
+          </div>
+
+          <!-- BAND 6 · BUTTONS -->
+          <div style="padding:24px 28px;display:flex;gap:12px;border-top:1px solid rgba(47,93,80,.14);">
+            <a href="#" class="tg-btn" style="flex:1;text-align:center;background:#C7622B;color:#FBF8F1;font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:14px 16px;border-radius:8px;">Track order</a>
+            <a href="#" class="tg-btn" style="flex:1;text-align:center;background:transparent;color:#2F5D50;border:1.5px solid #2F5D50;font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:12.5px 16px;border-radius:8px;">View order</a>
+          </div>
+
+          <!-- BAND 7 · FOOTER (green) -->
+          <div style="background:#2F5D50;color:rgba(241,235,221,.74);padding:22px 28px;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">
+              <div>
+                <div style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#F1EBDD;">Free 60-day returns</div>
+                <div style="font-family:var(--font-body);font-size:12px;line-height:1.55;margin-top:4px;">On unworn gear, no questions asked. Your pack comes with a prepaid label.</div>
+              </div>
+              <div style="display:flex;gap:8px;">
+                <span style="width:26px;height:26px;border:1px solid rgba(241,235,221,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:rgba(241,235,221,.75);">ig</span>
+                <span style="width:26px;height:26px;border:1px solid rgba(241,235,221,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:rgba(241,235,221,.75);">in</span>
+                <span style="width:26px;height:26px;border:1px solid rgba(241,235,221,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:9px;color:rgba(241,235,221,.75);">↗</span>
+              </div>
+            </div>
+            <div style="height:1px;background:rgba(241,235,221,.16);margin:16px 0 12px;"></div>
+            <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:.04em;color:rgba(241,235,221,.55);">TRAILHEAD GOODS · 78 Wy'east Ave · Bend, OR 97701</div>
+          </div>
+
+        </div>
+        <!-- email-only sub-footer -->
+        <div style="text-align:center;padding:16px 6px 4px;font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;color:#8A8574;">
+          <a href="#" style="color:#8A8574;">View in browser</a> · <a href="#" style="color:#8A8574;">Unsubscribe</a> · Trailhead Goods, Bend OR
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ PRINT PDF · PACKING SLIP ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2E3129;">Print PDF · Packing slip</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#57594C;">US Letter · ships in the box · no prices</span>
+      </div>
+
+      <div style="width:816px;min-height:1056px;background:#FFFFFF;padding:56px 64px;border:1px solid rgba(47,93,80,.16);display:flex;flex-direction:column;">
+
+        <!-- HEADER (green, rounded) -->
+        <div style="background:#2F5D50;color:#F1EBDD;padding:22px 26px;border-radius:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <img src="assets/trailhead-mark-cream.svg" alt="Trailhead Goods mark" width="34" height="34" style="display:block;"/>
+              <div style="line-height:1;">
+                <div style="font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:.03em;">TRAILHEAD</div>
+                <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.32em;color:rgba(241,235,221,.62);margin-top:5px;">GOODS · OUTFITTERS</div>
+              </div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-family:var(--font-display);font-size:17px;font-weight:500;letter-spacing:.04em;">PACKING SLIP</div>
+              <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;color:rgba(241,235,221,.6);margin-top:5px;font-variant-numeric:tabular-nums;">TH-100482 · Jul 24 2026 · Page 1/1</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SHIP TO / FROM -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:26px 4px 22px;border-bottom:1px solid rgba(47,93,80,.14);">
+          <div>
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;">Ship to</div>
+            <div style="font-family:var(--font-display);font-size:18px;font-weight:600;color:#33352C;margin-top:10px;">Alex Rivera</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4C40;margin-top:5px;">1450 Pearl St, Apt 3 · Denver, CO 80203</div>
+          </div>
+          <div>
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;">From</div>
+            <div style="font-family:var(--font-display);font-size:18px;font-weight:600;color:#2F5D50;margin-top:10px;">Trailhead Goods</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4C40;margin-top:5px;">78 Wy'east Ave · Bend, OR 97701</div>
+          </div>
+        </div>
+
+        <!-- ITEMS PACKED CHECKLIST (no prices) -->
+        <div style="padding:22px 4px 6px;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#2F5D50;">Items packed</span>
+            <span style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;font-variant-numeric:tabular-nums;">3 items · 4 units</span>
+          </div>
+          <div style="height:1.5px;background:#2F5D50;margin:12px 0 4px;"></div>
+
+          <div style="display:grid;grid-template-columns:auto auto 1fr auto;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid rgba(47,93,80,.14);">
+            <span style="width:18px;height:18px;border-radius:5px;border:1.5px solid #2F5D50;display:block;"></span>
+            <div style="width:46px;height:46px;border-radius:9px;border:1.5px dashed rgba(47,93,80,.3);background:#F1EEE5;display:flex;align-items:center;justify-content:center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+            </div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Cascade 3L Rain Shell</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:3px;">Spruce · Men's M · SKU CAS-3L-SPM</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;font-variant-numeric:tabular-nums;">Qty 1</div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:auto auto 1fr auto;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid rgba(47,93,80,.14);">
+            <span style="width:18px;height:18px;border-radius:5px;border:1.5px solid #2F5D50;display:block;"></span>
+            <div style="width:46px;height:46px;border-radius:9px;border:1.5px dashed rgba(47,93,80,.3);background:#F1EEE5;display:flex;align-items:center;justify-content:center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+            </div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Ridgeline Merino Crew</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:3px;">Oatmeal · Women's S · SKU RDG-MC-OS</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;font-variant-numeric:tabular-nums;">Qty 1</div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:auto auto 1fr auto;gap:16px;align-items:center;padding:15px 0;">
+            <span style="width:18px;height:18px;border-radius:5px;border:1.5px solid #2F5D50;display:block;"></span>
+            <div style="width:46px;height:46px;border-radius:9px;border:1.5px dashed rgba(47,93,80,.3);background:#F1EEE5;display:flex;align-items:center;justify-content:center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8FA79B" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg>
+            </div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#33352C;">Switchback Trail Crew Sock</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:#7C7A6B;margin-top:3px;">Moss · L · SKU SWB-SK-ML</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:13px;color:#33352C;font-variant-numeric:tabular-nums;">Qty 2</div>
+          </div>
+        </div>
+
+        <!-- NOTE -->
+        <div style="background:#F4F1E8;border-radius:12px;padding:18px 22px;margin-top:20px;">
+          <div style="font-family:var(--font-display);font-size:15px;font-weight:600;color:#2F5D50;">Thanks, Alex.</div>
+          <div style="font-family:var(--font-body);font-size:13px;line-height:1.55;color:#4A4C40;margin-top:5px;">Everything you ordered is in this box. Gear up and get out there — the trail's been waiting.</div>
+        </div>
+
+        <!-- QR BLOCK (2col narrow|wide) -->
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;margin-top:24px;padding:22px 4px;border-top:1px solid rgba(47,93,80,.14);border-bottom:1px solid rgba(47,93,80,.14);">
+          <div style="background:#FBF8F1;border:1px solid rgba(47,93,80,.18);border-radius:12px;padding:10px;">
+            <img src="assets/qr-track.png" alt="Scan to track order TH-100482" width="118" height="118" style="display:block;"/>
+          </div>
+          <div>
+            <div style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#C7622B;">Track &amp; returns</div>
+            <div style="font-family:var(--font-display);font-size:20px;font-weight:600;color:#33352C;margin-top:8px;">Scan to follow every mile.</div>
+            <div style="font-family:var(--font-body);font-size:13px;line-height:1.5;color:#4A4C40;margin-top:6px;">Live tracking from our door to yours. Changed your mind? <span style="color:#C7622B;font-weight:500;">Start a free return</span> from the same page — your prepaid label is ready.</div>
+            <div style="font-family:var(--font-mono);font-size:10px;color:#7C7A6B;margin-top:8px;">trailheadgoods.com/track/TH-100482</div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div style="margin-top:auto;padding-top:20px;display:flex;justify-content:space-between;align-items:flex-end;">
+          <div>
+            <div style="font-family:var(--font-display);font-size:13px;font-weight:600;color:#2F5D50;">Free 60-day returns on unworn gear</div>
+            <div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;margin-top:4px;">Questions? hello@trailheadgoods.com · (541) 555-0173</div>
+          </div>
+          <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:#7C7A6B;text-align:right;">TRAILHEAD GOODS<br/>Bend, OR</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============ SPEC SHEET ============ -->
+    <div style="display:flex;flex-direction:column;">
+      <div style="display:flex;gap:12px;align-items:baseline;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#2E3129;">Spec sheet</span>
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#57594C;">system of record</span>
+      </div>
+
+      <div style="width:560px;background:#FBF8F1;border:1px solid rgba(47,93,80,.18);border-radius:16px;padding:32px;color:#33352C;">
+
+        <div style="font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#C7622B;">Template 04 · Spec</div>
+        <div style="font-family:var(--font-display);font-size:26px;font-weight:500;letter-spacing:-.01em;margin-top:10px;color:#2F5D50;">Order Confirmation</div>
+        <div style="font-family:var(--font-body);font-size:13px;color:#7C7A6B;margin-top:6px;">Trailhead Goods · warm, rounded, product-forward — same kit, its own world.</div>
+
+        <!-- PALETTE -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 14px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">Palette</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;border-radius:8px;background:#EFE9DB;border:1px solid rgba(47,93,80,.2);"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Oat</div><div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;">Email ground</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;">#EFE9DB</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;border-radius:8px;background:#FFFFFF;border:1px solid rgba(47,93,80,.2);"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Warm White</div><div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;">Card · packing slip paper</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;">#FBF8F1</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;border-radius:8px;background:#2F5D50;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Forest Green</div><div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;">Header bands · headings · rules</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;">#2F5D50</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;border-radius:8px;background:#C7622B;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Rust <span style="font-family:var(--font-mono);font-size:9px;font-weight:500;letter-spacing:.12em;color:#fff;background:#C7622B;padding:2px 6px;border-radius:4px;vertical-align:middle;">ACCENT</span></div><div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;">Action &amp; status only</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;">#C7622B</div>
+          </div>
+          <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;">
+            <div style="width:34px;height:34px;border-radius:8px;background:#33352C;"></div>
+            <div><div style="font-family:var(--font-display);font-size:14px;font-weight:600;">Bark Ink</div><div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;">Body · product names</div></div>
+            <div style="font-family:var(--font-mono);font-size:12px;">#33352C</div>
+          </div>
+        </div>
+
+        <!-- TYPE SCALE -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">Type scale</div>
+        <div style="display:grid;grid-template-columns:1.5fr 1.5fr .6fr .6fr .9fr;font-family:var(--font-mono);font-size:11px;color:#33352C;">
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7C7A6B;border-bottom:1.5px solid #2F5D50;">Role</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7C7A6B;border-bottom:1.5px solid #2F5D50;">Face</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7C7A6B;border-bottom:1.5px solid #2F5D50;text-align:right;">px</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7C7A6B;border-bottom:1.5px solid #2F5D50;text-align:right;">wt</div>
+          <div style="padding:0 0 9px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7C7A6B;border-bottom:1.5px solid #2F5D50;text-align:right;">track</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Greeting hero</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">38</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">-.01</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Total figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">22</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">tab</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Product name</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">15</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">0</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Wordmark</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">Space Grotesk</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">18</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">600</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">.03</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Eyebrow / label</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">9–11</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">.18</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Body</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">Inter</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">13–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">400</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">0</div>
+          <div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);font-family:var(--font-body);">Price / figure</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);">JetBrains Mono</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">13–14</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">500</div><div style="padding:9px 0;border-bottom:1px solid rgba(47,93,80,.13);text-align:right;">tab</div>
+          <div style="padding:9px 0;font-family:var(--font-body);">Legal</div><div style="padding:9px 0;">Inter</div><div style="padding:9px 0;text-align:right;">12</div><div style="padding:9px 0;text-align:right;">400</div><div style="padding:9px 0;text-align:right;">0</div>
+        </div>
+
+        <!-- SPACING -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">Spacing · 8 px grid · rounding</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:6px;padding:6px 10px;">Card pad 28</span>
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:6px;padding:6px 10px;">Band pad 22–24</span>
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:6px;padding:6px 10px;">Card r 16</span>
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:6px;padding:6px 10px;">Thumb r 10</span>
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:6px;padding:6px 10px;">Button r 8</span>
+          <span style="font-family:var(--font-mono);font-size:11px;border:1px solid rgba(47,93,80,.22);border-radius:999px;padding:6px 12px;">Pill r 999</span>
+        </div>
+        <div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;margin-top:12px;line-height:1.55;">Softly rounded throughout. Hairlines are green-tinted <span style="font-family:var(--font-mono);">rgba(47,93,80,.14)</span> — warmth, not stark black rules.</div>
+
+        <!-- THE ONE ACCENT -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">The one accent</div>
+        <div style="font-family:var(--font-body);font-size:13px;line-height:1.6;color:#4A4C40;">Rust <span style="font-family:var(--font-mono);color:#C7622B;">#C7622B</span> earns its place only on action &amp; status — never a fill, never decoration:</div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px;">
+          <span style="background:#C7622B;color:#FBF8F1;font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:9px 14px;border-radius:8px;">Track order</span>
+          <span style="display:inline-flex;align-items:center;gap:7px;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#33352C;"><span style="width:7px;height:7px;border-radius:50%;background:#C7622B;"></span>Order confirmed</span>
+          <span style="font-family:var(--font-mono);font-size:11px;font-weight:500;color:#C7622B;">Start a return →</span>
+        </div>
+
+        <!-- BLOCKS USED -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">Blocks used · buildable in Elements</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Band</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Row · 2 &amp; 3-col</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Heading</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Paragraph</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Button</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Image</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Divider</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Data table</span>
+          <span style="font-family:var(--font-mono);font-size:11px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:6px;padding:6px 10px;">Social row</span>
+        </div>
+
+        <!-- ASSETS -->
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#7C7A6B;margin:28px 0 12px;padding-top:20px;border-top:1px solid rgba(47,93,80,.16);">Exported assets</div>
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+          <div style="display:flex;align-items:center;gap:9px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:10px;padding:9px 11px;">
+            <img src="assets/trailhead-mark-green.svg" width="26" height="26" alt="mark green"/>
+            <span style="font-family:var(--font-mono);font-size:10px;color:#7C7A6B;">mark-green.svg</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:9px;background:#2F5D50;border-radius:10px;padding:9px 11px;">
+            <img src="assets/trailhead-mark-cream.svg" width="26" height="26" alt="mark cream"/>
+            <span style="font-family:var(--font-mono);font-size:10px;color:rgba(241,235,221,.75);">mark-cream.svg</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:9px;background:#fff;border:1px solid rgba(47,93,80,.16);border-radius:10px;padding:8px 11px;">
+            <img src="assets/qr-track.png" width="30" height="30" alt="qr"/>
+            <span style="font-family:var(--font-mono);font-size:10px;color:#7C7A6B;">qr-track.png</span>
+          </div>
+        </div>
+        <div style="font-family:var(--font-body);font-size:12px;color:#7C7A6B;margin-top:12px;line-height:1.5;">Product thumbnails are placeholders — swap in square photos (~600 px, 1:1). QR encodes the live track/returns URL.</div>
+
+      </div>
+    </div>
+
+  <!--ROWEND--></div></div>
+</div>
+</x-dc>
+</body>
+</html>

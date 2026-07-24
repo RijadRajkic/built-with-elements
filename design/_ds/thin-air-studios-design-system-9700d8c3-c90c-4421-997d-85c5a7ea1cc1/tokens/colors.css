@@ -1,0 +1,65 @@
+/* Thin Air Studios — Color
+   Cool atmospheric slate, warm paper, true night, one pale-cyan particle.
+   Monochrome-first: the accent is a *particle*, used as a spark, never a fill.
+   Avoid pure #000 / #fff. Consume the semantic vars (--bg, --text, --accent…),
+   not the raw ramp, in components. */
+
+:root{
+  /* ── Slate: the core ink, "sky at altitude" (cool, never pure black) ── */
+  --slate-950:#0f171c;
+  --slate-900:#14202a;
+  --slate-800:#1c2b34;  /* INK — primary brand color */
+  --slate-700:#2f4350;
+  --slate-600:#45606f;
+  --slate-500:#6b8493;
+  --slate-400:#98aab4;
+  --slate-300:#c3cfd5;
+  --slate-200:#dde6ea;
+  --slate-100:#e8eef1;  /* MIST — light text on night */
+
+  /* ── Warm neutrals: light surfaces (paper) ── */
+  --paper:#f3f1ec;
+  --paper-2:#eae6dd;
+  --paper-line:#e2ddd2;
+
+  /* ── Night: dark surfaces ── */
+  --night:#14171a;
+  --night-2:#1d2227;
+  --night-line:#2a3138;
+
+  /* ── Particle: the single accent — pale altitude cyan, used sparingly ── */
+  --particle:#8fb6c4;
+  --particle-strong:#5d92a6;  /* links / hover */
+  --particle-deep:#3f6f80;    /* active / on-light text */
+  --particle-glow:rgba(143,182,196,.18);
+
+  /* ── Semantic (light is the default surface) ── */
+  --bg:var(--paper);
+  --surface:var(--paper-2);
+  --text:var(--slate-800);
+  --text-muted:var(--slate-600);
+  --line:var(--paper-line);
+  --accent:var(--particle-deep);     /* readable accent on light */
+  --accent-quiet:var(--particle);
+}
+
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:var(--night); --surface:var(--night-2);
+    --text:var(--slate-100); --text-muted:var(--slate-400);
+    --line:var(--night-line);
+    --accent:var(--particle); --accent-quiet:var(--particle-strong);
+  }
+}
+[data-theme="dark"]{
+  --bg:var(--night); --surface:var(--night-2);
+  --text:var(--slate-100); --text-muted:var(--slate-400);
+  --line:var(--night-line);
+  --accent:var(--particle); --accent-quiet:var(--particle-strong);
+}
+[data-theme="light"]{
+  --bg:var(--paper); --surface:var(--paper-2);
+  --text:var(--slate-800); --text-muted:var(--slate-600);
+  --line:var(--paper-line);
+  --accent:var(--particle-deep); --accent-quiet:var(--particle);
+}

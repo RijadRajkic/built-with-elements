@@ -1,0 +1,24 @@
+/* Thin Air Studios — Typography
+   The type move: letter-spacing IS the air. Display and labels are set light
+   and wide (literal breathing room); body stays tight and readable. Weight
+   stays light (300–400) on display — the brand feels like air, never bold. */
+
+:root{
+  /* ── Faces ── */
+  --font-display:'Space Grotesk','Inter',system-ui,sans-serif;
+  --font-body:'Inter','Geist',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono','Geist Mono',ui-monospace,monospace;
+
+  /* ── Tracking — wide on display/labels, tight on big heads ── */
+  --track-wordmark:.42em;
+  --track-air:.22em;     /* eyebrows, nav, small caps */
+  --track-normal:0; /* @kind other */
+  --track-tight:-.015em; /* large display only */
+
+  /* ── Scale — modular, opens up at the top for airy heroes ── */
+  --text-xs:.75rem; --text-sm:.875rem; --text-base:1rem; --text-lg:1.125rem;
+  --text-xl:1.5rem; --text-2xl:2.25rem; --text-3xl:3.5rem; --text-4xl:5rem; --text-5xl:7rem;
+
+  --leading-tight:1.08; --leading-snug:1.3; --leading:1.6;
+  --weight-light:300; --weight-reg:400; --weight-med:500;
+}

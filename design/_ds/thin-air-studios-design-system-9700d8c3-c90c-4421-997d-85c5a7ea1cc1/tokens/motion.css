@@ -1,0 +1,18 @@
+/* Thin Air Studios — Motion
+   Motion IS the brand, but orchestrated, not scattered. Gentle ease-out —
+   things settle, like air. Respect prefers-reduced-motion (durations zero out). */
+
+:root{
+  --ease:cubic-bezier(.2,.7,.2,1);   /* @kind other */ /* gentle ease-out — things settle */
+  --dur-fast:180ms; /* @kind other */
+  --dur:420ms;      /* @kind other */
+  --dur-slow:760ms; /* @kind other */
+}
+
+@media (prefers-reduced-motion:reduce){
+  :root{
+    --dur-fast:0ms; /* @kind other */
+    --dur:0ms;      /* @kind other */
+    --dur-slow:0ms; /* @kind other */
+  }
+}

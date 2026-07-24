@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# internal build notes (not for the public repo)
+docs/grind-handoff-*.md

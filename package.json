@@ -1,0 +1,26 @@
+{
+  "name": "built-with-elements",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Four transactional templates built with @unlayer/react-elements — one React tree, three renders: email, web page, and print PDF.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsx src/build.tsx",
+    "pdf": "node scripts/pdf.mjs",
+    "shots": "node scripts/shots.mjs",
+    "all": "npm run build && npm run pdf",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@unlayer/react-elements": "^0.1.20",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

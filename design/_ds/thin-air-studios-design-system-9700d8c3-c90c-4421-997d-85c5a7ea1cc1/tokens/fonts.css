@@ -1,0 +1,7 @@
+/* Thin Air Studios — Webfonts
+   All three faces are free (Google Fonts / OFL): Space Grotesk (display),
+   Inter (body), JetBrains Mono (data). Loaded from Google Fonts CDN.
+   If you need self-hosted binaries, download the OFL files and swap the
+   @import for local @font-face rules. */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');

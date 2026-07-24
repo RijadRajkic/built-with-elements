@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 98" width="224" height="98" fill="none">
+  <rect x="3" y="3" width="218" height="92" fill="none" stroke="#1E3A5F" stroke-width="3"></rect>
+  <rect x="9.5" y="9.5" width="205" height="79" fill="none" stroke="#1E3A5F" stroke-width="1" opacity="0.5"></rect>
+  <text x="112" y="50" text-anchor="middle" font-family="&#39;Space Grotesk&#39;,Arial,sans-serif" font-weight="700" font-size="40" letter-spacing="7" fill="#1E3A5F">PAID</text>
+  <line x1="46" y1="63" x2="178" y2="63" stroke="#1E3A5F" stroke-width="1" opacity="0.45"></line>
+  <text x="114" y="80" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,&#39;Courier New&#39;,monospace" font-size="11" letter-spacing="4" fill="#1E3A5F">JUL 24 2026</text>
+</svg>
