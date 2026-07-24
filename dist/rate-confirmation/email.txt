@@ -1,0 +1,122 @@
+[Northwind Freight compass mark]
+
+NORTHWIND
+
+FREIGHT · BROKERAGE
+
+Rate
+
+CONFIRMATION
+
+Confirmation No.
+
+NW-RC-48217
+
+Issued
+
+Jul 24 2026
+
+Signature required
+
+The lane
+
+Portland, OR
+
+Pickup
+
+Mon Jul 27 · 08:00–12:00
+
+963 MI
+
+— — ▶
+
+~24 hr transit
+
+Vernon, CA
+
+Delivery
+
+Tue Jul 28 · 13:00–16:00
+
+Load No.
+
+L-33915
+
+Equipment
+
+53′ Dry Van
+
+Gross Weight
+
+42,000 lbs
+
+Stop 01 · Pickup
+
+Columbia Cold Storage
+
+3400 NW Front Ave
+Portland, OR 97210
+
+REF/PO PO-88213
+PHONE (503) 555-0142
+APPT Mon Jul 27 · 08:00–12:00
+
+Stop 02 · Delivery
+
+Vernon Distribution Center
+
+4825 S Boyle Ave
+Vernon, CA 90058
+
+REF/DO DO-55190
+PHONE (323) 555-0198
+APPT Tue Jul 28 · 13:00–16:00
+
+Description
+
+Amount
+
+Linehaul — Portland, OR → Vernon, CA
+
+$2,300.00
+
+Fuel surcharge — 963 mi @ $0.36/mi
+
+$345.00
+
+Detention — 1 hr @ $25.00 (Vernon)
+
+$25.00
+
+Total due to carrier
+
+All-in · USD · net 30 on signed BOL
+
+$2,670.00
+
+Broker
+
+Northwind Freight LLC
+MC 712043 · Dana Okafor, Dispatch
+
+Carrier
+
+Cascade Line Haul LLC
+MC 883147 · DOT 2946512
+
+Rate is all-in and inclusive of fuel. Detention paid at $25.00/hr after 2 hours free at each stop, documented on the BOL. Carrier may not re-broker or double-broker this load. Notify dispatch of any delay within one hour of the appointment window. Invoice with signed BOL and this confirmation to accounting@northwindfreight.com.
+
+Review & Accept (#)
+
+Or reply to confirm · Dana Okafor, Dispatch · (503) 555-0110
+
+NORTHWIND FREIGHT · MC 712043
+220 SW Ash St, Suite 400 · Portland, OR 97204
+
+(https://www.linkedin.com/company/northwind-freight)
+
+(https://twitter.com/northwindfreight)
+
+You received this because you are a contracted carrier with Northwind Freight. This rate confirmation is part of a load agreement, not a solicitation.
+
+View in browser (#) · Manage notifications (#) · Northwind Freight, Portland OR
