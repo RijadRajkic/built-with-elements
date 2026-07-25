@@ -9,12 +9,12 @@
 // and print one content-sized page. Zero deps (no puppeteer): system Chromium +
 // ImageMagick.
 import { execFileSync } from 'node:child_process';
-import { HEADLESS_ARGS, HEADLESS_ENV } from './chrome-env.mjs';
 import { renameSync } from 'node:fs';
 import { existsSync, readFileSync, writeFileSync, rmSync, mkdtempSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
+import { HEADLESS_ARGS, HEADLESS_ENV } from './chrome-env.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(__dirname, '..', 'dist');
