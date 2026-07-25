@@ -6,38 +6,38 @@
   var SURF_LABEL = { email: 'Email', web: 'Web', print: 'Print' };
 
   var SHOWCASE = [
-    { slug: 'cadence', name: 'Cadence', kicker: 'Your Year in Motion', accent: '#FF5A1F',
+    { slug: 'cadence', cw: 560, name: 'Cadence', kicker: 'Your Year in Motion', accent: '#FF5A1F',
       star: 'web', domain: 'cadence.run', from: 'Cadence <recap@cadence.run>',
       subject: 'Alex, your 2026 is in — 1,284 km and counting',
       blurb: 'A Wrapped-style running recap. The email is a teaser; the web is a bold scroll-story — a 12-month bar chart, an elevation profile, an orange persona payoff; the PDF is a frame-it poster of the year.' },
-    { slug: 'spore', name: 'SPORE', kicker: 'A Field Guide Deck', accent: '#B4623A',
+    { slug: 'spore', cw: 680, name: 'SPORE', kicker: 'A Field Guide Deck', accent: '#B4623A',
       star: 'print', domain: 'spore.field', from: 'SPORE <deck@spore.field>',
       subject: 'You unlocked 3 new specimens — one of them is dangerous',
       blurb: 'Collectible fungi cards, each anchored by a hand-generated botanical plate. The email is a “+3 unlocked” reveal; the web is the collection gallery; the PDF is a print-and-cut sheet with card backs.' },
-    { slug: 'nocturne', name: 'Nocturne', kicker: 'A Dark-Academia Exhibition', accent: '#A8894F',
+    { slug: 'nocturne', cw: 820, name: 'Nocturne', kicker: 'A Dark-Academia Exhibition', accent: '#A8894F',
       star: 'print', domain: 'aldous.institute', from: 'The Aldous Institute <invites@aldous.art>',
       subject: "You're invited — Nocturne: Elias Vaughn, opening 12 September",
       blurb: 'An identity for the painter Elias Vaughn — serif-led, gilt the only light, six real generated paintings. An opening invite, an exhibition page, and a bi-fold gallery guide with floor plan and checklist.' },
-    { slug: 'mise', name: 'Mise', kicker: 'Recipe of the Week', accent: '#B95E2E',
+    { slug: 'mise', cw: 400, name: 'Mise', kicker: 'Recipe of the Week', accent: '#B95E2E',
       star: 'print', domain: 'mise.kitchen', from: 'Mise <weekly@mise.kitchen>',
       subject: 'Recipe of the week — Cast-Iron Rosemary Focaccia',
       blurb: 'The email teases the dish; the web is the full recipe page; the PDF is a printable 4×6 index card — front and back — that you clip for the recipe box.' }
   ];
 
   var TXN = [
-    { slug: 'rate-confirmation', name: 'Rate Confirmation', brand: 'Northwind Freight', accent: '#C6412A',
+    { slug: 'rate-confirmation', cw: 600, name: 'Rate Confirmation', brand: 'Northwind Freight', accent: '#C6412A',
       star: 'print', domain: 'northwind.co', from: 'Northwind Freight <ops@northwind.co>',
       subject: 'Rate Confirmation NW-RC-48217 — signature required',
       blurb: 'A carrier rate confirmation — lane, stops, accessorials and a signature line. Email for the inbox, PDF for the file.' },
-    { slug: 'event-ticket', name: 'Event Ticket', brand: 'Nightshift', accent: '#FF2D78',
+    { slug: 'event-ticket', cw: 688, name: 'Event Ticket', brand: 'Nightshift', accent: '#FF2D78',
       star: 'email', domain: 'nightshift.live', from: 'Nightshift <tickets@nightshift.live>',
       subject: "You're in — Nightshift · Sat Aug 15. Your QR ticket is inside.",
       blurb: 'A club-night ticket with a scannable code, set details and door times — a bold email and a wallet-ready print stub.' },
-    { slug: 'invoice-receipt', name: 'Invoice + Receipt', brand: 'Loomly Studio', accent: '#3E6DA8',
+    { slug: 'invoice-receipt', cw: 600, name: 'Invoice + Receipt', brand: 'Loomly Studio', accent: '#3E6DA8',
       star: 'print', domain: 'loomly.studio', from: 'Loomly Studio <billing@loomly.studio>',
       subject: 'Receipt — Studio plan · $128.00 paid',
       blurb: 'A subscription invoice and paid receipt — line items, totals, payment method. Clean in the inbox, tidy on paper.' },
-    { slug: 'order-confirmation', name: 'Order + Packing Slip', brand: 'Trailhead Goods', accent: '#3E7E6C',
+    { slug: 'order-confirmation', cw: 640, name: 'Order + Packing Slip', brand: 'Trailhead Goods', accent: '#3E7E6C',
       star: 'print', domain: 'trailhead.co', from: 'Trailhead Goods <orders@trailhead.co>',
       subject: 'Your Trailhead order is confirmed — TH-100482',
       blurb: 'An order confirmation email plus a printable packing slip — items, quantities, shipping address and totals.' }
@@ -114,6 +114,10 @@
       iframe.style.height = '1200px';
       iframe.src = 'dist/' + cfg.slug + '/' + SURF[surf];
       openLink.href = 'dist/' + cfg.slug + '/' + SURF[surf];
+      var fw = surf === 'web' ? '' : (surf === 'email' ? '600px' : (cfg.cw + 'px'));
+      iframe.style.width = fw || '100%';
+      iframe.style.minWidth = fw ? '0' : '640px';
+      iframe.style.margin = fw ? '0 auto' : '0';
       var label = surf === 'email' ? '✉  ' + cfg.from
         : surf === 'web' ? '🌐  ' + cfg.domain
         : '🖨  ' + cfg.slug + ' — document.pdf';
