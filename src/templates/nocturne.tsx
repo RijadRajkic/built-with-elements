@@ -7,7 +7,7 @@ import { Root, type Mode } from '../lib/root.js';
  * email = the opening invite · web = the exhibition page · document = a bi-fold
  * gallery guide (cover/colophon + statement/floor-plan + works checklist).
  * Serif-led (EB Garamond); gilt is the light in the dark, oxblood a whisper.
- * NOTE: plates are CD placeholders — swapped for the generated paintings.
+ * Plates are AI-generated (Recraft), Samori-style tenebrous paintings.
  */
 
 const BLACK = '#14110F';
@@ -35,12 +35,12 @@ const border = (side: string, color: string, style = 'solid') => ({
 const plate = (src: string, alt = '') => `<img src="${src}" alt="${alt}" style="display:block;width:100%;border:1px solid ${gilt(0.3)};"/>`;
 
 const WORKS: [string, string, string, string][] = [
-  ['assets/nocturne-plate-1.svg', '01', 'Veil (After the Storm)', 'Oil on linen · 2023 · 180 × 140 cm'],
-  ['assets/nocturne-plate-2.svg', '02', 'Nocturne No. 7', 'Oil on board · 2021 · 90 × 70 cm'],
-  ['assets/nocturne-plate-3.svg', '03', 'The Anatomist’s Dream', 'Oil on linen · 2022 · 150 × 120 cm'],
-  ['assets/nocturne-plate-4.svg', '04', 'Reliquary', 'Oil & gold leaf on panel · 2024 · 60 × 45 cm'],
-  ['assets/nocturne-plate-5.svg', '05', 'Umbra', 'Oil on linen · 2020 · 200 × 160 cm'],
-  ['assets/nocturne-plate-6.svg', '06', 'Saint in Negative', 'Oil on linen · 2025 · 170 × 130 cm'],
+  ['assets/nocturne-plate-1.jpg', '01', 'Veil (After the Storm)', 'Oil on linen · 2023 · 180 × 140 cm'],
+  ['assets/nocturne-plate-2.jpg', '02', 'Nocturne No. 7', 'Oil on board · 2021 · 90 × 70 cm'],
+  ['assets/nocturne-plate-3.jpg', '03', 'The Anatomist’s Dream', 'Oil on linen · 2022 · 150 × 120 cm'],
+  ['assets/nocturne-plate-4.jpg', '04', 'Reliquary', 'Oil & gold leaf on panel · 2024 · 60 × 45 cm'],
+  ['assets/nocturne-plate-5.jpg', '05', 'Umbra', 'Oil on linen · 2020 · 200 × 160 cm'],
+  ['assets/nocturne-plate-6.jpg', '06', 'Saint in Negative', 'Oil on linen · 2025 · 170 × 130 cm'],
 ];
 
 const checklistHtml = () =>
@@ -68,7 +68,7 @@ export default function Nocturne({ mode }: { mode: Mode }) {
             <Paragraph html={`<span style="font-style:italic">Elias Vaughn · Paintings 2018–2026</span>`} fontFamily={serif} fontSize="19px" color={g(0.75)} textAlign="center" containerPadding="8px 0 0" />
           </Column>
         </Row>
-        <Row backgroundColor={BLACK} padding="22px 40px 0"><Column padding="0"><Paragraph html={plate('assets/nocturne-plate-2.svg', 'Nocturne No. 7')} /></Column></Row>
+        <Row backgroundColor={BLACK} padding="22px 40px 0"><Column padding="0"><Paragraph html={plate('assets/nocturne-plate-2.jpg', 'Nocturne No. 7')} /></Column></Row>
         <Row backgroundColor={BLACK} padding="26px 40px 6px">
           <Column padding="0">
             <Paragraph html={`Saturday 12 September 2026 · 7 pm`} fontFamily={serif} fontSize="24px" color={PARCH} textAlign="center" />
@@ -104,7 +104,7 @@ export default function Nocturne({ mode }: { mode: Mode }) {
               <Paragraph key="p" html={`<span style="text-transform:uppercase">The Aldous Institute presents</span>`} fontFamily={mono} fontSize="10px" letterSpacing=".3em" color={GILT} textAlign="center" containerPadding="18px 0 0" />,
               <Heading key="t" level="h2" text="Nocturne" fontFamily={serif} fontSize="66px" fontWeight={500} lineHeight="1" color={PARCH} textAlign="center" containerPadding="18px 0 0" />,
               <Paragraph key="s" html={`<span style="font-style:italic">Elias Vaughn</span>`} fontFamily={serif} fontSize="20px" color={g(0.78)} textAlign="center" containerPadding="10px 0 0" />,
-              <Paragraph key="pl" html={`<span style="display:block;max-width:190px;margin:26px auto 0;">${plate('assets/nocturne-plate-2.svg')}</span>`} />,
+              <Paragraph key="pl" html={`<span style="display:block;max-width:190px;margin:26px auto 0;">${plate('assets/nocturne-plate-2.jpg')}</span>`} />,
               <Paragraph key="y" html={`<span style="text-transform:uppercase">Paintings 2018–2026</span>`} fontFamily={mono} fontSize="10px" letterSpacing=".16em" color={g(0.6)} textAlign="center" containerPadding="24px 0 0" />,
             ]}
           </Column>
@@ -167,7 +167,7 @@ export default function Nocturne({ mode }: { mode: Mode }) {
           <Paragraph text="Six late paintings, shown together for the first time. Opening night Saturday 12 September, 7 pm." fontFamily={bodyFont} fontSize="15px" color={g(0.6)} lineHeight="1.6" containerPadding="22px 0 0" />
           <Paragraph html={`<a href="#" style="display:inline-block;background:${GILT};color:${BLACK};padding:13px 24px;font-family:${MONO};font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;">Plan your visit →</a>`} containerPadding="26px 0 0" />
         </Col>
-        <Col padding="0" verticalAlign="middle"><Paragraph html={plate('assets/nocturne-plate-6.svg', 'Saint in Negative')} /></Col>
+        <Col padding="0" verticalAlign="middle"><Paragraph html={plate('assets/nocturne-plate-6.jpg', 'Saint in Negative')} /></Col>
       </Row>
 
       {/* curator statement */}

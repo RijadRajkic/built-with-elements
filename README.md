@@ -44,7 +44,6 @@ and a **bi-fold gallery guide** PDF with a floor plan and works checklist.
 |---|---|---|
 | <img src="docs/screenshots/nocturne-email.png" width="250"> | <img src="docs/screenshots/nocturne-page.png" width="250"> | <img src="docs/screenshots/nocturne-document.png" width="250"> |
 
-*(The plates are placeholders in this commit — real generated paintings drop in as a finishing pass.)*
 
 ### 04 · Mise — *recipe of the week*
 The email is a teaser; the web is the full recipe page; the **PDF** is a printable **4×6
