@@ -6,3 +6,6 @@ node_modules/
 
 # internal build notes (not for the public repo)
 docs/grind-handoff-*.md
+
+# local harness settings (bgIsolation)
+.claude/

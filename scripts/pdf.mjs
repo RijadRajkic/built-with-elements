@@ -13,7 +13,7 @@ const CHROME =
     existsSync,
   ) || 'chromium';
 
-const SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation'];
+const SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation', 'cadence', 'spore', 'nocturne', 'mise'];
 
 for (const slug of SLUGS) {
   const src = join(DIST, slug, 'document.html');

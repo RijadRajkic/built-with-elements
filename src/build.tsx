@@ -9,6 +9,10 @@ import RateConfirmation from './templates/rate-confirmation.js';
 import EventTicket from './templates/event-ticket.js';
 import InvoiceReceipt from './templates/invoice-receipt.js';
 import OrderConfirmation from './templates/order-confirmation.js';
+import Cadence from './templates/cadence.js';
+import Spore from './templates/spore.js';
+import Nocturne from './templates/nocturne.js';
+import Mise from './templates/mise.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -19,7 +23,7 @@ const ASSETS = join(ROOT, 'design', 'assets');
  *  (Email clients ignore webfonts; the font stacks fall back to web-safe faces.) */
 const FONTS = [
   {
-    url: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap',
+    url: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap',
   },
 ];
 
@@ -30,6 +34,11 @@ const TEMPLATES: Entry[] = [
   { slug: 'event-ticket', title: "You're in — Nightshift", Comp: EventTicket },
   { slug: 'invoice-receipt', title: 'Receipt — Loomly Studio', Comp: InvoiceReceipt },
   { slug: 'order-confirmation', title: 'Order confirmed — Trailhead Goods', Comp: OrderConfirmation },
+  // Showcase set — original, tri-modal concepts
+  { slug: 'cadence', title: 'Your 2026 in Motion — Cadence', Comp: Cadence },
+  { slug: 'spore', title: 'SPORE — Field Guide Deck', Comp: Spore },
+  { slug: 'nocturne', title: 'Nocturne — Elias Vaughn', Comp: Nocturne },
+  { slug: 'mise', title: 'Cast-Iron Rosemary Focaccia — Mise', Comp: Mise },
 ];
 
 const MODES: { mode: Mode; file: string }[] = [

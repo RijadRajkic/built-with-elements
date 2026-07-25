@@ -17,10 +17,10 @@ const CHROME =
   ) || 'chromium';
 const MAGICK = ['/usr/bin/magick', '/usr/bin/convert'].find(existsSync) || 'magick';
 
-const SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation'];
+const SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation', 'cadence', 'spore', 'nocturne', 'mise'];
 
 for (const slug of SLUGS) {
-  for (const mode of ['email', 'document']) {
+  for (const mode of ['email', 'page', 'document']) {
     const src = join(ROOT, 'dist', slug, `${mode}.html`);
     if (!existsSync(src)) {
       console.warn(`skip ${slug}/${mode}: build first`);
