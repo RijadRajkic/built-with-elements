@@ -63,7 +63,7 @@ function Card(s: Spec, cardBorder: object = allBorder()) {
     <Column padding="16px 16px 14px" backgroundColor={CREAM} border={cardBorder}>
       {[
         <Paragraph key="h" html={`<span style="display:flex;justify-content:space-between;align-items:center;"><span style="font-family:${mono};font-size:10px;letter-spacing:.14em;color:${MUT2};">№ ${s.n}</span><span style="font-family:${mono};font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${INK};"><img src="${s.pip}" width="10" style="vertical-align:middle"/> ${s.rarity}</span></span>`} />,
-        <Paragraph key="sil" html={`<span style="display:block;text-align:center;padding:12px 0 4px;"><img src="${s.sil}" height="70"/></span>`} />,
+        <Paragraph key="sil" html={`<span style="display:block;text-align:center;padding:12px 0 4px;"><img src="${s.sil}" height="104"/></span>`} />,
         <Heading key="nm" level="h3" text={s.title} fontFamily={font.display} fontSize="24px" fontWeight={600} color={INK} textAlign="center" letterSpacing="-.01em" />,
         <Paragraph key="bi" html={`<span style="font-style:italic;">${s.binomial}</span>`} fontFamily={font.mono} fontSize="12px" color={MUT} textAlign="center" containerPadding="2px 0 0" />,
         <Paragraph key="st" html={statGrid(s)} containerPadding="14px 0 0" />,
@@ -76,12 +76,12 @@ function Card(s: Spec, cardBorder: object = allBorder()) {
 }
 
 const SPECIES: Spec[] = [
-  { n: '01', title: 'Chanterelle', binomial: 'Cantharellus cibarius', sil: 'assets/spore-01-chanterelle.svg', pip: 'assets/spore-pip-oxblood.svg', rarity: 'Rare', verdict: 'Edible', vicon: '✓', habitat: 'Oak & beech duff', season: 'Jul–Oct', capd: '3–10 cm', flavor: 'Apricot-scented and gold — the forager’s favourite handshake.' },
-  { n: '02', title: 'Fly Agaric', binomial: 'Amanita muscaria', sil: 'assets/spore-02-agaric.svg', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Toxic', vicon: '△', habitat: 'Birch & pine', season: 'Aug–Nov', capd: '8–20 cm', flavor: 'Storybook red, storybook danger. Admire; don’t taste.' },
-  { n: '03', title: 'Morel', binomial: 'Morchella esculenta', sil: 'assets/spore-03-morel.svg', pip: 'assets/spore-pip-oxblood.svg', rarity: 'Rare', verdict: 'Edible', vicon: '✓', habitat: 'Ash & elm, burns', season: 'Mar–May', capd: '3–8 cm', flavor: 'A honeycomb on a stalk — spring’s most hunted prize.' },
-  { n: '04', title: 'Death Cap', binomial: 'Amanita phalloides', sil: 'assets/spore-04-deathcap.svg', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Deadly', vicon: '▲', habitat: 'Oak woodland', season: 'Aug–Nov', capd: '5–15 cm', flavor: 'Half a cap can end you. Learn this one first.' },
-  { n: '05', title: 'Lion’s Mane', binomial: 'Hericium erinaceus', sil: 'assets/spore-05-lionsmane.svg', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Edible', vicon: '✓', habitat: 'Hardwood wounds', season: 'Aug–Nov', capd: '8–25 cm', flavor: 'A frozen white waterfall. Tastes faintly of crab.' },
-  { n: '06', title: 'Turkey Tail', binomial: 'Trametes versicolor', sil: 'assets/spore-06-turkeytail.svg', pip: 'assets/spore-pip-sage.svg', rarity: 'Common', verdict: 'Medicinal', vicon: '✚', habitat: 'Dead hardwood', season: 'All year', capd: '4–10 cm', flavor: 'Banded like its namesake; steeped for centuries as tea.' },
+  { n: '01', title: 'Chanterelle', binomial: 'Cantharellus cibarius', sil: 'assets/spore-01-chanterelle.png', pip: 'assets/spore-pip-oxblood.svg', rarity: 'Rare', verdict: 'Edible', vicon: '✓', habitat: 'Oak & beech duff', season: 'Jul–Oct', capd: '3–10 cm', flavor: 'Apricot-scented and gold — the forager’s favourite handshake.' },
+  { n: '02', title: 'Fly Agaric', binomial: 'Amanita muscaria', sil: 'assets/spore-02-flyagaric.png', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Toxic', vicon: '△', habitat: 'Birch & pine', season: 'Aug–Nov', capd: '8–20 cm', flavor: 'Storybook red, storybook danger. Admire; don’t taste.' },
+  { n: '03', title: 'Morel', binomial: 'Morchella esculenta', sil: 'assets/spore-03-morel.png', pip: 'assets/spore-pip-oxblood.svg', rarity: 'Rare', verdict: 'Edible', vicon: '✓', habitat: 'Ash & elm, burns', season: 'Mar–May', capd: '3–8 cm', flavor: 'A honeycomb on a stalk — spring’s most hunted prize.' },
+  { n: '04', title: 'Death Cap', binomial: 'Amanita phalloides', sil: 'assets/spore-04-deathcap.png', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Deadly', vicon: '▲', habitat: 'Oak woodland', season: 'Aug–Nov', capd: '5–15 cm', flavor: 'Half a cap can end you. Learn this one first.' },
+  { n: '05', title: 'Lion’s Mane', binomial: 'Hericium erinaceus', sil: 'assets/spore-05-lionsmane.png', pip: 'assets/spore-pip-amber.svg', rarity: 'Uncommon', verdict: 'Edible', vicon: '✓', habitat: 'Hardwood wounds', season: 'Aug–Nov', capd: '8–25 cm', flavor: 'A frozen white waterfall. Tastes faintly of crab.' },
+  { n: '06', title: 'Turkey Tail', binomial: 'Trametes versicolor', sil: 'assets/spore-06-turkeytail.png', pip: 'assets/spore-pip-sage.svg', rarity: 'Common', verdict: 'Medicinal', vicon: '✚', habitat: 'Dead hardwood', season: 'All year', capd: '4–10 cm', flavor: 'Banded like its namesake; steeped for centuries as tea.' },
 ];
 const byNum = (n: string) => SPECIES.find((s) => s.n === n)!;
 
@@ -90,7 +90,7 @@ export default function Spore({ mode }: { mode: Mode }) {
   if (mode === 'email') {
     const mini = (s: Spec, brd?: object) => (
       <Col padding="12px 14px" backgroundColor={CREAM} border={brd} verticalAlign="middle">
-        <Paragraph html={`<span style="display:flex;align-items:center;gap:12px;"><img src="${s.sil}" height="40"/><span style="flex:1"><span style="font-family:${disp};font-size:16px;font-weight:600;color:${INK};">${s.title}</span><br/><span style="font-family:${mono};font-size:10.5px;font-style:italic;color:${MUT};">${s.binomial}</span></span><img src="${s.pip}" width="14"/></span>`} />
+        <Paragraph html={`<span style="display:flex;align-items:center;gap:12px;"><img src="${s.sil}" height="46"/><span style="flex:1"><span style="font-family:${disp};font-size:16px;font-weight:600;color:${INK};">${s.title}</span><br/><span style="font-family:${mono};font-size:10.5px;font-style:italic;color:${MUT};">${s.binomial}</span></span><img src="${s.pip}" width="14"/></span>`} />
       </Col>
     );
     return (
