@@ -46,14 +46,15 @@ type Spec = {
 
 const statGrid = (s: Spec) => {
   const cell = (label: string, val: string, extra: string, valColor = INK) =>
-    `<span style="padding:8px 10px;${extra}"><span style="font-family:${mono};font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:${MUT2};">${label}</span><br/><span style="font-family:${mono};font-size:11px;color:${valColor};">${val}</span></span>`;
+    `<td width="50%" style="padding:8px 10px;${extra}"><span style="font-family:${mono};font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:${MUT2};">${label}</span><br/><span style="font-family:${mono};font-size:11px;color:${valColor};">${val}</span></td>`;
   return (
-    `<span style="display:grid;grid-template-columns:1fr 1fr;border:1px solid ${HAIR};">` +
+    `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;table-layout:fixed;border:1px solid ${HAIR};"><tr>` +
     cell('Edibility', `${s.vicon} ${s.verdict}`, `border-right:1px solid ${HAIR};border-bottom:1px solid ${HAIR};`, RUST) +
     cell('Cap Ø', s.capd, `border-bottom:1px solid ${HAIR};`) +
+    `</tr><tr>` +
     cell('Habitat', s.habitat, `border-right:1px solid ${HAIR};`) +
     cell('Season', s.season, '') +
-    `</span>`
+    `</tr></table>`
   );
 };
 
@@ -62,7 +63,7 @@ function Card(s: Spec, cardBorder: object = allBorder()) {
   return (
     <Column padding="16px 16px 14px" backgroundColor={CREAM} border={cardBorder}>
       {[
-        <Paragraph key="h" html={`<span style="display:flex;justify-content:space-between;align-items:center;"><span style="font-family:${mono};font-size:10px;letter-spacing:.14em;color:${MUT2};">№ ${s.n}</span><span style="font-family:${mono};font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${INK};"><img src="${s.pip}" width="10" style="vertical-align:middle"/> ${s.rarity}</span></span>`} />,
+        <Paragraph key="h" html={`<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td align="left" style="font-family:${mono};font-size:10px;letter-spacing:.14em;color:${MUT2};">№ ${s.n}</td><td align="right" style="font-family:${mono};font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${INK};"><img src="${s.pip}" width="10" style="vertical-align:middle"/> ${s.rarity}</td></tr></table>`} />,
         <Paragraph key="sil" html={`<span style="display:block;text-align:center;padding:12px 0 4px;"><img src="${s.sil}" height="104"/></span>`} />,
         <Heading key="nm" level="h3" text={s.title} fontFamily={font.display} fontSize="24px" fontWeight={600} color={INK} textAlign="center" letterSpacing="-.01em" />,
         <Paragraph key="bi" html={`<span style="font-style:italic;">${s.binomial}</span>`} fontFamily={font.mono} fontSize="12px" color={MUT} textAlign="center" containerPadding="2px 0 0" />,
@@ -90,7 +91,7 @@ export default function Spore({ mode }: { mode: Mode }) {
   if (mode === 'email') {
     const mini = (s: Spec, brd?: object) => (
       <Col padding="12px 14px" backgroundColor={CREAM} border={brd} verticalAlign="middle">
-        <Paragraph html={`<span style="display:flex;align-items:center;gap:12px;"><img src="${s.sil}" height="46"/><span style="flex:1"><span style="font-family:${disp};font-size:16px;font-weight:600;color:${INK};">${s.title}</span><br/><span style="font-family:${mono};font-size:10.5px;font-style:italic;color:${MUT};">${s.binomial}</span></span><img src="${s.pip}" width="14"/></span>`} />
+        <Paragraph html={`<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td width="46" style="vertical-align:middle;padding-right:12px;"><img src="${s.sil}" height="46"/></td><td style="vertical-align:middle;"><span style="font-family:${disp};font-size:16px;font-weight:600;color:${INK};">${s.title}</span><br/><span style="font-family:${mono};font-size:10.5px;font-style:italic;color:${MUT};">${s.binomial}</span></td><td width="20" align="right" style="vertical-align:middle;"><img src="${s.pip}" width="14"/></td></tr></table>`} />
       </Col>
     );
     return (
