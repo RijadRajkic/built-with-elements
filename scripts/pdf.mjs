@@ -9,6 +9,7 @@
 // and print one content-sized page. Zero deps (no puppeteer): system Chromium +
 // ImageMagick.
 import { execFileSync } from 'node:child_process';
+import { HEADLESS_ARGS, HEADLESS_ENV } from './chrome-env.mjs';
 import { renameSync } from 'node:fs';
 import { existsSync, readFileSync, writeFileSync, rmSync, mkdtempSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -24,15 +25,25 @@ const CHROME =
   ) || 'chromium';
 const MAGICK = ['/usr/bin/magick', '/usr/bin/convert'].find(existsSync) || 'magick';
 
-const SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation', 'cadence', 'spore', 'nocturne', 'mise'];
+const ALL_SLUGS = ['rate-confirmation', 'event-ticket', 'invoice-receipt', 'order-confirmation', 'cadence', 'spore', 'nocturne', 'mise'];
+// `node scripts/pdf.mjs spore nocturne` re-renders just those; no args = all.
+const picked = process.argv.slice(2).filter((a) => !a.startsWith('-'));
+const SLUGS = picked.length ? ALL_SLUGS.filter((s) => picked.includes(s)) : ALL_SLUGS;
 
-const PROFILE = mkdtempSync(join(tmpdir(), 'bwe-pdf-'));
-const chrome = (extra) =>
-  execFileSync(
+// A fresh profile per launch: sharing one --user-data-dir across sequential
+// headless runs trips a GLib-GIO thread-pool assertion when a desktop Chromium
+// is already running, which kills the whole pdf pass.
+const PROFILES = [];
+const chrome = (extra) => {
+  const profile = mkdtempSync(join(tmpdir(), 'bwe-pdf-'));
+  PROFILES.push(profile);
+  return execFileSync(
     CHROME,
-    ['--headless=new', '--disable-gpu', '--no-sandbox', '--hide-scrollbars', `--user-data-dir=${PROFILE}`, ...extra],
-    { stdio: ['ignore', 'pipe', 'ignore'] },
+    ['--headless=new', ...HEADLESS_ARGS, '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
+      `--user-data-dir=${profile}`, ...extra],
+    { stdio: ['ignore', 'pipe', 'ignore'], env: HEADLESS_ENV },
   );
+};
 const magick = (args) => execFileSync(MAGICK, args, { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
 
 // the design's content width = the most frequent max-width in the document HTML
@@ -96,4 +107,4 @@ for (const slug of SLUGS) {
     rmSync(tmp, { force: true });
   }
 }
-rmSync(PROFILE, { recursive: true, force: true });
+for (const profile of PROFILES) rmSync(profile, { recursive: true, force: true });

@@ -47,6 +47,22 @@ const MODES: { mode: Mode; file: string }[] = [
   { mode: 'document', file: 'document.html' },
 ];
 
+// The PNG twins are committed, so a plain `npm run build` needs no rasteriser.
+// If an SVG is added without running `npm run raster`, fail loudly rather than
+// shipping an email with an image no client can display.
+function assertRasterised(slug: string, emailHtml: string) {
+  const missing = [...emailHtml.matchAll(/src="[^"]*assets\/([^"]+\.png)"/g)]
+    .map((m) => m[1])
+    .filter((name, i, all) => all.indexOf(name) === i)
+    .filter((name) => !existsSync(join(ASSETS, name)));
+  if (missing.length) {
+    throw new Error(
+      `${slug}: email references ${missing.join(', ')} but no such file in design/assets. ` +
+        `Run \`npm run raster\` to regenerate the PNG twins.`,
+    );
+  }
+}
+
 function build() {
   rmSync(DIST, { recursive: true, force: true });
   for (const { slug, title, Comp } of TEMPLATES) {
@@ -55,7 +71,14 @@ function build() {
     if (existsSync(ASSETS)) cpSync(ASSETS, join(out, 'assets'), { recursive: true });
 
     for (const { mode, file } of MODES) {
-      const html = renderToHtml(<Comp mode={mode} />, { title, fonts: FONTS });
+      let html = renderToHtml(<Comp mode={mode} />, { title, fonts: FONTS });
+      // Email clients (Gmail, Outlook, Yahoo) don't render <img src="*.svg">, so the
+      // email surface uses the PNG twins from scripts/rasterize.mjs. Web and print
+      // keep the vectors.
+      if (mode === 'email') {
+        html = html.replace(/(src="[^"]*assets\/[^"]+)\.svg"/g, '$1.png"');
+        assertRasterised(slug, html);
+      }
       writeFileSync(join(out, file), html);
     }
     writeFileSync(join(out, 'email.txt'), renderToPlainText(<Comp mode="email" />));
