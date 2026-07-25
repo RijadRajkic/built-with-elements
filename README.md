@@ -9,6 +9,8 @@ divider, table, social).
 
 > Submission for Unlayer's **#BuiltWithElements** challenge.
 
+**▶ Live showcase site** — open `index.html` (or deploy the repo to GitHub Pages / Vercel): browse every template across all three surfaces, **export the print PDF**, and **send a test email**, all from one page.
+
 ---
 
 ## Showcase — four original concepts
