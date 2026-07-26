@@ -1,0 +1,2060 @@
+{
+  "counters": {
+    "u_row": 14,
+    "u_column": 23,
+    "u_content_text": 24,
+    "u_content_image": 2,
+    "u_content_heading": 3,
+    "u_content_button": 2,
+    "u_content_social": 1
+  },
+  "body": {
+    "rows": [
+      {
+        "cells": [
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.5",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F4F4F8",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "<strong style=\"font-weight:600;\">Nightshift</strong> <span style=\"color:#7C7C8C;font-weight:400;\">&lt;tickets@nightshift.live&gt;</span><br/><span style=\"color:#7C7C8C;font-size:12px;\">You're in — Nightshift · Sat Aug 15</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_1",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_1",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7C7C8C",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".12em",
+                  "text": "<a href=\"#\" style=\"color:#7C7C8C;text-decoration:none;text-transform:uppercase;\">View in browser</a>",
+                  "_meta": {
+                    "htmlID": "u_content_text_2",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_2",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "18px 30px 16px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_1",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "src": {
+                    "url": "assets/nightshift-mark-magenta.svg",
+                    "width": 1600,
+                    "autoWidth": false,
+                    "maxWidth": "12%"
+                  },
+                  "textAlign": "center",
+                  "altText": "Nightshift",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_1",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_3",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7C7C8C",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".2em",
+                  "text": "<span style=\"text-transform:uppercase;\">Rooftop Series · Vol. 07</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_4",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "32px 30px 6px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_2",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#FF2D78",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".32em",
+                  "text": "<span style=\"text-transform:uppercase;\">You're in</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_4",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h1",
+                  "fontSize": "62px",
+                  "textAlign": "left",
+                  "lineHeight": "0.92",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F4F4F8",
+                  "fontWeight": 500,
+                  "text": "Nightshift",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "letterSpacing": "-.025em",
+                  "_meta": {
+                    "htmlID": "u_content_heading_1",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "15px",
+                  "textAlign": "left",
+                  "lineHeight": "1.5",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#9A9AAB",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "A rooftop electronic showcase — Kessler, Aluna Vega &amp; Midnight Republic, under the open sky.",
+                  "_meta": {
+                    "htmlID": "u_content_text_5",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_5",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "24px 30px 26px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_3",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#6E6E82",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".14em",
+                  "text": "<span style=\"text-transform:uppercase;\">Photo goes here</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_6",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#5A5A6E",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Rooftop · night · crowd",
+                  "_meta": {
+                    "htmlID": "u_content_text_7",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "#14141C",
+              "padding": "88px 20px",
+              "border": {
+                "borderTopWidth": "1.5px",
+                "borderTopColor": "rgba(255,45,120,.4)",
+                "borderTopStyle": "dashed",
+                "borderRightWidth": "1.5px",
+                "borderRightColor": "rgba(255,45,120,.4)",
+                "borderRightStyle": "dashed",
+                "borderBottomWidth": "1.5px",
+                "borderBottomColor": "rgba(255,45,120,.4)",
+                "borderBottomStyle": "dashed",
+                "borderLeftWidth": "1.5px",
+                "borderLeftColor": "rgba(255,45,120,.4)",
+                "borderLeftStyle": "dashed"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_6",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 30px 26px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_4",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          24
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#000000",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#FF2D78;\">&nbsp;</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_8",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "6px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_7",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.5",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C7C7D2",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Order <span style=\"font-family:'JetBrains Mono','Courier New',monospace;color:#F4F4F8;\">NS-7742</span> confirmed — sent to <span style=\"color:#F4F4F8;\">alex@example.com</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_9",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_8",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 30px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_5",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgba(244,244,248,.12)",
+            "borderTopStyle": "solid",
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(244,244,248,.12)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            1,
+            24
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#FF2D78",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".18em",
+                  "text": "<span style=\"text-transform:uppercase;\">Date &amp; time</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_10",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "17px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F4F4F8",
+                  "fontWeight": 600,
+                  "text": "Sat, Aug 15 2026",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_2",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "1.6",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#9A9AAB",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "Doors 9:00 PM<br/>Sets till 3:00 AM",
+                  "_meta": {
+                    "htmlID": "u_content_text_11",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "24px 30px",
+              "border": {
+                "borderRightWidth": "1px",
+                "borderRightColor": "rgba(244,244,248,.12)",
+                "borderRightStyle": "solid"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_9",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#FF2D78",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".18em",
+                  "text": "<span style=\"text-transform:uppercase;\">Venue</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_12",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "17px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F4F4F8",
+                  "fontWeight": 600,
+                  "text": "The Aerie Rooftop",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_3",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "1.55",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#9A9AAB",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "14th floor · 220 Rivington St<br/>New York, NY 10002",
+                  "_meta": {
+                    "htmlID": "u_content_text_13",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "24px 30px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_10",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_6",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(244,244,248,.12)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "src": {
+                    "url": "assets/qr-nightshift.png",
+                    "width": 1600,
+                    "autoWidth": false,
+                    "maxWidth": "95.08%"
+                  },
+                  "textAlign": "center",
+                  "altText": "Scan at gate — ticket NS-7742",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_2",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "8px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#0B0B10",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".16em",
+                  "text": "<span style=\"text-transform:uppercase;\">Scan at gate</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_14",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "#F4F4F8",
+              "padding": "18px",
+              "border": {
+                "borderRightWidth": "2px",
+                "borderRightColor": "rgba(11,11,16,.22)",
+                "borderRightStyle": "dashed"
+              },
+              "borderRadius": "14px",
+              "_meta": {
+                "htmlID": "u_column_11",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1.2",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#000000",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "<span style=\"display:block;\"><span style=\"display:inline-block;width:49%;vertical-align:top;\"><span style=\"display:block;font-family:'JetBrains Mono','Courier New',monospace;font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;\">Ticket</span><span style=\"display:block;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;\">General Admission</span></span><span style=\"display:inline-block;width:2%;\">&nbsp;</span><span style=\"display:inline-block;width:49%;vertical-align:top;\"><span style=\"display:block;font-family:'JetBrains Mono','Courier New',monospace;font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;\">Admit</span><span style=\"display:block;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;\">1 · GA Standing</span></span></span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_15",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1.2",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#000000",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "<div style=\"height:16px;line-height:16px;\">&nbsp;</div><span style=\"display:block;\"><span style=\"display:inline-block;width:49%;vertical-align:top;\"><span style=\"display:block;font-family:'JetBrains Mono','Courier New',monospace;font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;\">Gate</span><span style=\"display:block;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#0B0B10;margin-top:5px;\">East Elevator · 14F</span></span><span style=\"display:inline-block;width:2%;\">&nbsp;</span><span style=\"display:inline-block;width:49%;vertical-align:top;\"><span style=\"display:block;font-family:'JetBrains Mono','Courier New',monospace;font-size:8px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#6A6A78;\">Order</span><span style=\"display:block;font-family:'JetBrains Mono','Courier New',monospace;font-size:14px;font-weight:500;color:#0B0B10;margin-top:5px;\">NS-7742</span></span></span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_16",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "#F4F4F8",
+              "padding": "20px 22px",
+              "border": {},
+              "borderRadius": "14px",
+              "_meta": {
+                "htmlID": "u_column_12",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "26px 30px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_7",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "button",
+                "values": {
+                  "containerPadding": "10px",
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "#",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#0B0B10",
+                    "backgroundColor": "#FF2D78",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#0879A1"
+                  },
+                  "size": {
+                    "autoWidth": false,
+                    "width": "100%"
+                  },
+                  "fontSize": "12px",
+                  "lineHeight": "120%",
+                  "textAlign": "center",
+                  "padding": "14px 16px",
+                  "border": {},
+                  "borderRadius": "8px",
+                  "text": "ADD TO CALENDAR",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".1em",
+                  "_meta": {
+                    "htmlID": "u_content_button_1",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 6px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_13",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "button",
+                "values": {
+                  "containerPadding": "10px",
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "#",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#F4F4F8",
+                    "backgroundColor": "transparent",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#0879A1"
+                  },
+                  "size": {
+                    "autoWidth": false,
+                    "width": "100%"
+                  },
+                  "fontSize": "12px",
+                  "lineHeight": "120%",
+                  "textAlign": "center",
+                  "padding": "12.5px 16px",
+                  "border": {
+                    "borderTopWidth": "1.5px",
+                    "borderTopColor": "rgba(244,244,248,.35)",
+                    "borderTopStyle": "solid",
+                    "borderRightWidth": "1.5px",
+                    "borderRightColor": "rgba(244,244,248,.35)",
+                    "borderRightStyle": "solid",
+                    "borderBottomWidth": "1.5px",
+                    "borderBottomColor": "rgba(244,244,248,.35)",
+                    "borderBottomStyle": "solid",
+                    "borderLeftWidth": "1.5px",
+                    "borderLeftColor": "rgba(244,244,248,.35)",
+                    "borderLeftStyle": "solid"
+                  },
+                  "borderRadius": "8px",
+                  "text": "VIEW / TRANSFER",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".1em",
+                  "_meta": {
+                    "htmlID": "u_content_button_2",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 0 0 6px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_14",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 30px 26px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_8",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7C7C8C",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".18em",
+                  "text": "<span style=\"text-transform:uppercase;\">Know before you go</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_17",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_15",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "24px 30px 8px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_9",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgba(244,244,248,.12)",
+            "borderTopStyle": "solid"
+          },
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C7C7D2",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "21+ · valid photo ID required at the gate.",
+                  "_meta": {
+                    "htmlID": "u_content_text_18",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 10px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_16",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C7C7D2",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Rain or shine — the rooftop is covered.",
+                  "_meta": {
+                    "htmlID": "u_content_text_19",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 0 0 10px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_17",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 30px 12px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_10",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C7C7D2",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "No re-entry once you're on the roof.",
+                  "_meta": {
+                    "htmlID": "u_content_text_20",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 10px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_18",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C7C7D2",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "This QR is your ticket — screenshot it.",
+                  "_meta": {
+                    "htmlID": "u_content_text_21",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 0 0 10px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_19",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 30px 24px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_11",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1.7",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7C7C8C",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".04em",
+                  "text": "NIGHTSHIFT · nightshift.live<br/>The Aerie Rooftop · New York, NY",
+                  "_meta": {
+                    "htmlID": "u_content_text_22",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_20",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "social",
+                "values": {
+                  "containerPadding": "10px",
+                  "icons": {
+                    "iconType": "circle",
+                    "icons": [
+                      {
+                        "name": "Instagram",
+                        "url": "https://instagram.com/nightshift.live"
+                      },
+                      {
+                        "name": "TikTok",
+                        "url": "https://tiktok.com/@nightshift.live"
+                      },
+                      {
+                        "name": "Spotify",
+                        "url": "https://open.spotify.com/user/nightshift.live"
+                      }
+                    ]
+                  },
+                  "align": "center",
+                  "iconSize": 26,
+                  "spacing": 8,
+                  "_meta": {
+                    "htmlID": "u_content_social_1",
+                    "htmlClassNames": "u_content_social"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_21",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 30px 4px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_12",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgba(244,244,248,.12)",
+            "borderTopStyle": "solid"
+          },
+          "cells": [
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "1.55",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#6E6E82",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "You're receiving this because you bought a ticket. Can't make it? Transfer it from your order page.",
+                  "_meta": {
+                    "htmlID": "u_content_text_23",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "12px 0 0",
+              "border": {
+                "borderTopWidth": "1px",
+                "borderTopColor": "rgba(244,244,248,.1)",
+                "borderTopStyle": "solid"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_22",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 30px 22px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_13",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7C7C8C",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".08em",
+                  "text": "<a href=\"#\" style=\"color:#7C7C8C;text-decoration:none;\">View in browser</a> · <a href=\"#\" style=\"color:#7C7C8C;text-decoration:none;\">Manage tickets</a> · Nightshift, NYC",
+                  "_meta": {
+                    "htmlID": "u_content_text_24",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_23",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#0B0B10",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "16px 30px 24px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_14",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      }
+    ],
+    "values": {
+      "_styleGuide": null,
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentVerticalAlign": "middle",
+      "contentWidth": "600px",
+      "fontFamily": {
+        "label": "Inter",
+        "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+      },
+      "textColor": "#000000",
+      "language": {},
+      "backgroundColor": "#0B0B10",
+      "preheaderText": "You're in — Nightshift · Sat Aug 15. Your QR ticket is inside.",
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0000ee",
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true
+      },
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "custom",
+        "position": "center"
+      },
+      "accessibilityTitle": "",
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      }
+    }
+  },
+  "schemaVersion": 24
+}

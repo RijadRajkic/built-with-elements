@@ -28,4 +28,6 @@ export const font = {
   display: { label: 'Space Grotesk', value: "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif" },
   body: { label: 'Inter', value: "Inter, 'Helvetica Neue', Arial, sans-serif" },
   mono: { label: 'JetBrains Mono', value: "'JetBrains Mono', 'Courier New', monospace" },
+  // serif for the dark-academia exhibition template (Nocturne)
+  serif: { label: 'Fraunces', value: "'Fraunces', 'EB Garamond', Georgia, 'Times New Roman', serif" },
 };

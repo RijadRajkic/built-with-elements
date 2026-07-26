@@ -1,0 +1,2849 @@
+{
+  "counters": {
+    "u_row": 15,
+    "u_column": 27,
+    "u_content_image": 1,
+    "u_content_heading": 6,
+    "u_content_text": 39,
+    "u_content_divider": 2,
+    "u_content_table": 1,
+    "u_content_button": 1,
+    "u_content_social": 1
+  },
+  "body": {
+    "rows": [
+      {
+        "cells": [
+          1,
+          4,
+          4
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "src": {
+                    "url": "assets/northwind-mark-paper.svg",
+                    "width": 1600,
+                    "autoWidth": false,
+                    "maxWidth": "100%"
+                  },
+                  "textAlign": "center",
+                  "altText": "Northwind Freight compass mark",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_1",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 8px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_1",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h1",
+                  "fontSize": "18px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F3EDE0",
+                  "fontWeight": 600,
+                  "text": "NORTHWIND",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "letterSpacing": ".02em",
+                  "_meta": {
+                    "htmlID": "u_content_heading_1",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.6)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".34em",
+                  "text": "FREIGHT · BROKERAGE",
+                  "_meta": {
+                    "htmlID": "u_content_text_1",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_2",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "right",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.6)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".22em",
+                  "text": "Rate",
+                  "_meta": {
+                    "htmlID": "u_content_text_2",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "19px",
+                  "textAlign": "right",
+                  "lineHeight": "1.1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F3EDE0",
+                  "fontWeight": 500,
+                  "text": "CONFIRMATION",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "letterSpacing": ".04em",
+                  "_meta": {
+                    "htmlID": "u_content_heading_2",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_3",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "24px 28px 0",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_1",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "rgba(243,237,224,.2)"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_1",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_4",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "20px 28px 16px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_2",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          2,
+          2,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.55)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Confirmation No.",
+                  "_meta": {
+                    "htmlID": "u_content_text_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F3EDE0",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".04em",
+                  "text": "NW-RC-48217",
+                  "_meta": {
+                    "htmlID": "u_content_text_4",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_5",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.55)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Issued",
+                  "_meta": {
+                    "htmlID": "u_content_text_5",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F3EDE0",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".04em",
+                  "text": "Jul 24 2026",
+                  "_meta": {
+                    "htmlID": "u_content_text_6",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_6",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "right",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#000000",
+                  "text": "<span style=\"display:inline-block;background:#C6412A;color:#ffffff;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;padding:7px 11px;\">Signature required</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_7",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_7",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 28px 24px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_3",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "The lane",
+                  "_meta": {
+                    "htmlID": "u_content_text_8",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_8",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "28px 28px 4px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_4",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          5,
+          3,
+          5
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "30px",
+                  "textAlign": "left",
+                  "lineHeight": "1.02",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontWeight": 500,
+                  "text": "Portland, OR",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "letterSpacing": "-.01em",
+                  "_meta": {
+                    "htmlID": "u_content_heading_3",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#C6412A",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".16em",
+                  "text": "Pickup",
+                  "_meta": {
+                    "htmlID": "u_content_text_9",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#33383B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "Mon Jul 27 · 08:00–12:00",
+                  "_meta": {
+                    "htmlID": "u_content_text_10",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "12px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_9",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "top"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "17px",
+                  "textAlign": "center",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "text": "963 <span style=\"font-size:11px;color:#7A828B;\">MI</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_11",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "center",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#000000",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "<span style=\"color:rgba(23,36,46,.35);\">— — ▶</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_12",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "center",
+                  "lineHeight": "1.2",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".12em",
+                  "text": "~24 hr transit",
+                  "_meta": {
+                    "htmlID": "u_content_text_13",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "18px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_10",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "top"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "30px",
+                  "textAlign": "right",
+                  "lineHeight": "1.02",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontWeight": 500,
+                  "text": "Vernon, CA",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "letterSpacing": "-.01em",
+                  "_meta": {
+                    "htmlID": "u_content_heading_4",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".16em",
+                  "text": "Delivery",
+                  "_meta": {
+                    "htmlID": "u_content_text_14",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "right",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#33383B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "Tue Jul 28 · 13:00–16:00",
+                  "_meta": {
+                    "htmlID": "u_content_text_15",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "12px 0 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_11",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "top"
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 28px 26px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_5",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(23,36,46,.13)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            5,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Load No.",
+                  "_meta": {
+                    "htmlID": "u_content_text_16",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "text": "L-33915",
+                  "_meta": {
+                    "htmlID": "u_content_text_17",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "16px 28px",
+              "border": {
+                "borderRightWidth": "1px",
+                "borderRightColor": "rgba(23,36,46,.13)",
+                "borderRightStyle": "solid"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_12",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Equipment",
+                  "_meta": {
+                    "htmlID": "u_content_text_18",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "fontWeight": 500,
+                  "text": "53′ Dry Van",
+                  "_meta": {
+                    "htmlID": "u_content_text_19",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "16px 20px",
+              "border": {
+                "borderRightWidth": "1px",
+                "borderRightColor": "rgba(23,36,46,.13)",
+                "borderRightStyle": "solid"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_13",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Gross Weight",
+                  "_meta": {
+                    "htmlID": "u_content_text_20",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "text": "42,000 lbs",
+                  "_meta": {
+                    "htmlID": "u_content_text_21",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "16px 20px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_14",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_6",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(23,36,46,.13)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".16em",
+                  "text": "Stop 01 · Pickup",
+                  "_meta": {
+                    "htmlID": "u_content_text_22",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h4",
+                  "fontSize": "16px",
+                  "textAlign": "left",
+                  "lineHeight": "1.2",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontWeight": 600,
+                  "text": "Columbia Cold Storage",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_5",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.5",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#5C6771",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "3400 NW Front Ave<br/>Portland, OR 97210",
+                  "_meta": {
+                    "htmlID": "u_content_text_23",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "1.9",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#33383B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "<span style=\"color:#7A828B;\">REF/PO</span>&nbsp;&nbsp;PO-88213<br/><span style=\"color:#7A828B;\">PHONE</span>&nbsp;&nbsp;(503) 555-0142<br/><span style=\"color:#7A828B;\">APPT</span>&nbsp;&nbsp;Mon Jul 27 · 08:00–12:00",
+                  "_meta": {
+                    "htmlID": "u_content_text_24",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "22px 28px",
+              "border": {
+                "borderRightWidth": "1px",
+                "borderRightColor": "rgba(23,36,46,.13)",
+                "borderRightStyle": "solid"
+              },
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_15",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".16em",
+                  "text": "Stop 02 · Delivery",
+                  "_meta": {
+                    "htmlID": "u_content_text_25",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h4",
+                  "fontSize": "16px",
+                  "textAlign": "left",
+                  "lineHeight": "1.2",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontWeight": 600,
+                  "text": "Vernon Distribution Center",
+                  "fontFamily": {
+                    "label": "Space Grotesk",
+                    "value": "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_6",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.5",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#5C6771",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "4825 S Boyle Ave<br/>Vernon, CA 90058",
+                  "_meta": {
+                    "htmlID": "u_content_text_26",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "1.9",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#33383B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "text": "<span style=\"color:#7A828B;\">REF/DO</span>&nbsp;&nbsp;DO-55190<br/><span style=\"color:#7A828B;\">PHONE</span>&nbsp;&nbsp;(323) 555-0198<br/><span style=\"color:#7A828B;\">APPT</span>&nbsp;&nbsp;Tue Jul 28 · 13:00–16:00",
+                  "_meta": {
+                    "htmlID": "u_content_text_27",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "22px 28px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_16",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_7",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(23,36,46,.13)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "table",
+                "values": {
+                  "containerPadding": "10px",
+                  "columns": 2,
+                  "rows": 2,
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#CCC",
+                    "borderLeftWidth": "1px",
+                    "borderLeftStyle": "solid",
+                    "borderLeftColor": "#CCC",
+                    "borderRightWidth": "1px",
+                    "borderRightStyle": "solid",
+                    "borderRightColor": "#CCC",
+                    "borderBottomWidth": "1px",
+                    "borderBottomStyle": "solid",
+                    "borderBottomColor": "rgba(23,36,46,.13)"
+                  },
+                  "stripedRows": false,
+                  "stripedRowsBackgroundColor": "#CCC",
+                  "enableHeader": true,
+                  "headerBackgroundColor": "#FFFFFF",
+                  "headerFontWeight": 700,
+                  "headerFontSize": "14px",
+                  "headerTextAlign": "left",
+                  "headerVerticalAlign": "middle",
+                  "headerPadding": "10px",
+                  "contentBackgroundColor": "#FFFFFF",
+                  "contentFontSize": "14px",
+                  "contentTextAlign": "left",
+                  "contentVerticalAlign": "middle",
+                  "contentLineHeight": "140%",
+                  "contentPadding": "10px",
+                  "enableFooter": false,
+                  "footerBackgroundColor": "#DDDDDD",
+                  "footerFontWeight": 700,
+                  "footerFontSize": "14px",
+                  "footerTextAlign": "left",
+                  "footerVerticalAlign": "middle",
+                  "footerPadding": "10px",
+                  "linkStyle": {
+                    "body": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "table": {
+                    "headers": [
+                      {
+                        "height": 0,
+                        "cells": [
+                          {
+                            "width": 70,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;\\\">Description</span>\"}",
+                            "color": "#17242E",
+                            "textAlign": "left",
+                            "padding": "0 0 11px"
+                          },
+                          {
+                            "width": 30,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#17242E;\\\">Amount</span>\"}",
+                            "color": "#17242E",
+                            "textAlign": "right",
+                            "padding": "0 0 11px"
+                          }
+                        ]
+                      }
+                    ],
+                    "rows": [
+                      {
+                        "height": 0,
+                        "cells": [
+                          {
+                            "width": 70,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:Inter,sans-serif;font-size:14px;color:#17242E;\\\">Linehaul <span style=\\\"color:#7A828B;\\\">— Portland, OR → Vernon, CA</span></span>\"}",
+                            "textAlign": "left",
+                            "padding": "13px 0"
+                          },
+                          {
+                            "width": 30,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:'JetBrains Mono',monospace;font-size:14px;color:#17242E;\\\">$2,300.00</span>\"}",
+                            "textAlign": "right",
+                            "padding": "13px 0"
+                          }
+                        ]
+                      },
+                      {
+                        "height": 0,
+                        "cells": [
+                          {
+                            "width": 70,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:Inter,sans-serif;font-size:14px;color:#17242E;\\\">Fuel surcharge <span style=\\\"color:#7A828B;\\\">— 963 mi @ $0.36/mi</span></span>\"}",
+                            "backgroundColor": "rgba(23,36,46,.02)",
+                            "textAlign": "left",
+                            "padding": "13px 0"
+                          },
+                          {
+                            "width": 30,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:'JetBrains Mono',monospace;font-size:14px;color:#17242E;\\\">$345.00</span>\"}",
+                            "backgroundColor": "rgba(23,36,46,.02)",
+                            "textAlign": "right",
+                            "padding": "13px 0"
+                          }
+                        ]
+                      },
+                      {
+                        "height": 0,
+                        "cells": [
+                          {
+                            "width": 70,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:Inter,sans-serif;font-size:14px;color:#17242E;\\\">Detention <span style=\\\"color:#7A828B;\\\">— 1 hr @ $25.00 (Vernon)</span></span>\"}",
+                            "textAlign": "left",
+                            "padding": "13px 0"
+                          },
+                          {
+                            "width": 30,
+                            "textJson": "{\"__html\":\"<span style=\\\"font-family:'JetBrains Mono',monospace;font-size:14px;color:#17242E;\\\">$25.00</span>\"}",
+                            "textAlign": "right",
+                            "padding": "13px 0"
+                          }
+                        ]
+                      }
+                    ],
+                    "footers": []
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_table_1",
+                    "htmlClassNames": "u_content_table"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_17",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 28px 18px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_8",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          3,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.7)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".18em",
+                  "text": "Total due to carrier",
+                  "_meta": {
+                    "htmlID": "u_content_text_28",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.5)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".06em",
+                  "text": "All-in · USD · net 30 on signed BOL",
+                  "_meta": {
+                    "htmlID": "u_content_text_29",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_18",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "33px",
+                  "textAlign": "right",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#F3EDE0",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": "-.01em",
+                  "text": "$2,670.00",
+                  "_meta": {
+                    "htmlID": "u_content_text_30",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_19",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 28px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_9",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            3,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Broker",
+                  "_meta": {
+                    "htmlID": "u_content_text_31",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.45",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Northwind Freight LLC<br/><span style=\"font-family:'JetBrains Mono',monospace;color:#5C6771;\">MC 712043 · Dana Okafor, Dispatch</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_32",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 12px 18px 0",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_20",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".2em",
+                  "text": "Carrier",
+                  "_meta": {
+                    "htmlID": "u_content_text_33",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "1.45",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#17242E",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Cascade Line Haul LLC<br/><span style=\"font-family:'JetBrains Mono',monospace;color:#5C6771;\">MC 883147 · DOT 2946512</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_34",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0 0 18px 12px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_21",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 28px 0",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_10",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "1.6",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#5C6771",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Rate is all-in and inclusive of fuel. Detention paid at $25.00/hr after 2 hours free at each stop, documented on the BOL. Carrier may not re-broker or double-broker this load. Notify dispatch of any delay within one hour of the appointment window. Invoice with signed BOL and this confirmation to <span style=\"color:#17242E;\">accounting@northwindfreight.com</span>.",
+                  "_meta": {
+                    "htmlID": "u_content_text_35",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_22",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0 28px 22px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_11",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "border": {
+            "borderBottomWidth": "1px",
+            "borderBottomColor": "rgba(23,36,46,.13)",
+            "borderBottomStyle": "solid"
+          },
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "button",
+                "values": {
+                  "containerPadding": "10px",
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "#",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#FFFFFF",
+                    "backgroundColor": "#C6412A",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#0879A1"
+                  },
+                  "size": {
+                    "autoWidth": true,
+                    "width": "100%"
+                  },
+                  "fontSize": "13px",
+                  "lineHeight": "120%",
+                  "textAlign": "center",
+                  "padding": "15px 34px",
+                  "border": {},
+                  "borderRadius": "4px",
+                  "text": "Review & Accept",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "fontWeight": 500,
+                  "letterSpacing": ".12em",
+                  "_meta": {
+                    "htmlID": "u_content_button_1",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "center",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#7A828B",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "Or reply to confirm · Dana Okafor, Dispatch · <span style=\"font-family:'JetBrains Mono',monospace;color:#5C6771;\">(503) 555-0110</span>",
+                  "_meta": {
+                    "htmlID": "u_content_text_36",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_23",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#FFFFFF",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "26px 28px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_12",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          4,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "1.7",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.7)",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".04em",
+                  "text": "NORTHWIND FREIGHT · MC 712043<br/>220 SW Ash St, Suite 400 · Portland, OR 97204",
+                  "_meta": {
+                    "htmlID": "u_content_text_37",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_24",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "social",
+                "values": {
+                  "containerPadding": "10px",
+                  "icons": {
+                    "iconType": "circle",
+                    "icons": [
+                      {
+                        "name": "LinkedIn",
+                        "url": "https://www.linkedin.com/company/northwind-freight"
+                      },
+                      {
+                        "name": "Twitter",
+                        "url": "https://twitter.com/northwindfreight"
+                      }
+                    ]
+                  },
+                  "align": "right",
+                  "iconSize": 26,
+                  "spacing": 8,
+                  "_meta": {
+                    "htmlID": "u_content_social_1",
+                    "htmlClassNames": "u_content_social"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_25",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false,
+              "verticalAlign": "middle"
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 28px 0",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_13",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            4,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "rgba(243,237,224,.16)"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_2",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "1.55",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "rgba(243,237,224,.5)",
+                  "fontFamily": {
+                    "label": "Inter",
+                    "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+                  },
+                  "text": "You received this because you are a contracted carrier with Northwind Freight. This rate confirmation is part of a load agreement, not a solicitation.",
+                  "_meta": {
+                    "htmlID": "u_content_text_38",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_26",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#17242E",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "16px 28px 22px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_14",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "center",
+                  "lineHeight": "1.4",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#8A8478",
+                  "fontFamily": {
+                    "label": "JetBrains Mono",
+                    "value": "'JetBrains Mono', 'Courier New', monospace"
+                  },
+                  "letterSpacing": ".08em",
+                  "text": "<a href=\"#\" style=\"color:#8A8478;\">View in browser</a> · <a href=\"#\" style=\"color:#8A8478;\">Manage notifications</a> · Northwind Freight, Portland OR",
+                  "_meta": {
+                    "htmlID": "u_content_text_39",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_27",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#ECE6D8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "16px 4px 4px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_15",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      }
+    ],
+    "values": {
+      "_styleGuide": null,
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentVerticalAlign": "middle",
+      "contentWidth": "600px",
+      "fontFamily": {
+        "label": "Inter",
+        "value": "Inter, 'Helvetica Neue', Arial, sans-serif"
+      },
+      "textColor": "#000000",
+      "language": {},
+      "backgroundColor": "#ECE6D8",
+      "preheaderText": "Rate Confirmation NW-RC-48217 — signature required",
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0000ee",
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true
+      },
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "custom",
+        "position": "center"
+      },
+      "accessibilityTitle": "",
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      }
+    }
+  },
+  "schemaVersion": 24
+}

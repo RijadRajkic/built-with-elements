@@ -1,0 +1,97 @@
+[Loomly Studio]
+
+LOOMLY STUDIO
+
+Receipt
+
+Thanks — your payment went through.
+
+Invoice No.
+LM-2026-0417
+Issued
+Jul 24 2026
+
+[Paid]
+
+Paid in full
+
+$128.00
+
+Studio plan · August 2026
+
+Paid Jul 24, 2026 · Visa •••• 4242
+
+01 Billed to
+
+Meridian Labs, Inc.
+
+88 Kearny St, Suite 400
+San Francisco, CA 94108
+
+Tax ID · 47-6021894
+
+02 From
+
+Loomly Studio, Inc.
+
+55 Washington St, Suite 210
+Brooklyn, NY 11201
+
+Tax ID · 88-2140736
+
+03 Items
+
+Description
+
+Qty
+
+Unit
+
+Amount
+
+Studio plan — monthly, Aug 2026
+
+1
+
+$96.00
+
+$96.00
+
+Additional editor seat
+
+2
+
+$12.00
+
+$24.00
+
+Subtotal
+
+$120.00
+
+Tax
+
+$8.00
+
+Total paid
+
+$128.00
+
+04 Payment method
+
+VISA Visa •••• 4242
+
+Charged Jul 24, 2026
+
+DOWNLOAD PDF INVOICE (#)
+
+LOOMLY STUDIO, INC. · TAX ID 88-2140736
+55 Washington St, Suite 210 · Brooklyn, NY 11201
+
+(#)
+
+(#)
+
+VAT not applicable — U.S. vendor. Questions about this receipt? receipts@loomly.studio
+
+View in browser (#) · Billing settings (#) · Loomly Studio, Brooklyn NY

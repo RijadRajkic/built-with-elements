@@ -6,3 +6,12 @@ node_modules/
 
 # internal build notes (not for the public repo)
 docs/grind-handoff-*.md
+
+# local harness settings (bgIsolation)
+.claude/
+
+# Local email QA artifacts — regenerate with `npm run emailsim` / `npm run sendfiles`
+qa/
+dist/*/email-gmail.html
+dist/*/email-send.html
+copy-emails.html

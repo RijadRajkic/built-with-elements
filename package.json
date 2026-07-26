@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Four transactional templates built with @unlayer/react-elements — one React tree, three renders: email, web page, and print PDF.",
+  "description": "Eight email templates built with @unlayer/react-elements — one React tree, three renders: email, web page, and print PDF.",
   "license": "MIT",
   "scripts": {
     "build": "tsx src/build.tsx",
+    "raster": "node scripts/rasterize.mjs",
     "pdf": "node scripts/pdf.mjs",
     "shots": "node scripts/shots.mjs",
+    "emailsim": "node scripts/emailsim.mjs",
+    "sendfiles": "node scripts/sendfiles.mjs",
     "all": "npm run build && npm run pdf",
     "typecheck": "tsc --noEmit"
   },

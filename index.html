@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Built with Elements — one React tree, three surfaces</title>
+<meta name="description" content="Eight templates built with @unlayer/react-elements. One component tree renders as email, web page, and print PDF. Preview every surface, export the PDF, send a test email." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="site/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-in">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Built with Elements</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#showcase">Showcase</a>
+        <a href="#transactional">Transactional</a>
+        <a href="#how">How it works</a>
+        <a class="nav-gh" href="https://github.com/RijadRajkic/built-with-elements" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="kicker">#BuiltWithElements</p>
+      <h1>One React tree.<br /><span class="hero-em">Three surfaces.</span></h1>
+      <p class="lede">
+        Eight templates built with <a href="https://github.com/unlayer/elements" target="_blank" rel="noopener"><code>@unlayer/react-elements</code></a>.
+        Each is a single component tree that renders as a table-safe <b>email</b>, a responsive <b>web page</b>,
+        and a print-ready <b>PDF</b> — no per-channel rewrites. Flip between the mockups, export the PDF, send a test email.
+      </p>
+      <div class="hero-stats">
+        <span><b>8</b> templates</span>
+        <span><b>3</b> surfaces each</span>
+        <span><b>1</b> source tree</span>
+        <span><b>0</b> API keys to render</span>
+      </div>
+    </section>
+
+    <section id="showcase" class="band">
+      <div class="band-head">
+        <p class="kicker">Showcase — four original concepts</p>
+        <h2>Not another receipt.</h2>
+        <p class="band-sub">Each of these uses the three surfaces for three different jobs — a teaser, a scroll-story, a printable artifact. That's the whole point of writing once and rendering three ways.</p>
+      </div>
+      <div id="showcase-grid" class="tpl-list"></div>
+    </section>
+
+    <section id="transactional" class="band band-alt">
+      <div class="band-head">
+        <p class="kicker">Transactional — four workhorses</p>
+        <h2>The everyday documents businesses actually send.</h2>
+        <p class="band-sub">A supporting set proving the range — confirmations, tickets, receipts, packing slips. Same three surfaces, same export and send controls.</p>
+      </div>
+      <div id="txn-grid" class="tpl-list"></div>
+    </section>
+
+    <section id="how" class="band">
+      <div class="band-head">
+        <p class="kicker">How it works</p>
+        <h2>Branch on <code>mode</code>, render three ways.</h2>
+        <p class="band-sub"><code>&lt;Root mode&gt;</code> swaps the wrapper that sets Unlayer's render mode. Everything is composed from Elements' fixed blocks under strict <code>Body → Row → Column → item</code> nesting — the same tree, three outputs.</p>
+      </div>
+      <pre class="code"><code><span class="c-k">export default function</span> <span class="c-f">Cadence</span>({ mode }) {
+  <span class="c-k">if</span> (mode === <span class="c-s">'email'</span>)    <span class="c-k">return</span> &lt;<span class="c-t">Root</span> mode={mode}&gt;{<span class="c-cm">/* teaser        */</span>}&lt;/<span class="c-t">Root</span>&gt;;
+  <span class="c-k">if</span> (mode === <span class="c-s">'document'</span>) <span class="c-k">return</span> &lt;<span class="c-t">Root</span> mode={mode}&gt;{<span class="c-cm">/* frame-it poster*/</span>}&lt;/<span class="c-t">Root</span>&gt;;
+  <span class="c-k">return</span>                     &lt;<span class="c-t">Root</span> mode={mode}&gt;{<span class="c-cm">/* scroll-story   */</span>}&lt;/<span class="c-t">Root</span>&gt;;
+}</code></pre>
+      <div class="how-steps">
+        <div><span class="how-n">Email</span><p><code>&lt;Email&gt;</code> — table-based, Outlook/Gmail-safe, web-safe font fallbacks.</p></div>
+        <div><span class="how-n">Web</span><p><code>&lt;Page&gt;</code> — responsive flexbox, full-bleed bands, Google Fonts.</p></div>
+        <div><span class="how-n">Print</span><p><code>&lt;Document&gt;</code> — fixed print width, exported to PDF via headless Chromium.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-in">
+      <p>Built with <a href="https://github.com/unlayer/elements" target="_blank" rel="noopener">Unlayer Elements</a> · MIT. Fonts: Space Grotesk · Inter · JetBrains Mono · Fraunces · EB Garamond (OFL). All brands, names and figures are fictional, for demonstration only.</p>
+      <p class="foot-tag">#BuiltWithElements</p>
+    </div>
+  </footer>
+
+  <!-- Send-email modal -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-scrim" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-x" data-close aria-label="Close">✕</button>
+      <div class="modal-body" id="modal-body"><!-- filled by JS --></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="site/site.js"></script>
+</body>
+</html>
