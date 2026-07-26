@@ -70,7 +70,7 @@ export default function Cadence({ mode }: { mode: Mode }) {
       <Root
         mode={mode}
         backgroundColor={KRAFT}
-        contentWidth="600px"
+        contentWidth="480px"
         previewText="Alex, your 2026 is in — 1,284 km and counting"
         fontFamily={font.body}
       >
@@ -94,7 +94,7 @@ export default function Cadence({ mode }: { mode: Mode }) {
         <Row backgroundColor={INK} padding="32px 26px 28px">
           <Column padding="0">
             <Paragraph text="You ran" fontFamily={font.mono} fontSize="11px" fontWeight={500} letterSpacing=".24em" color={ORANGE} lineHeight="1" />
-            <Paragraph html={heroNum('1,284', 'KM', 92, 19)} containerPadding="12px 0 0" />
+            <Paragraph html={heroNum('1,284', 'KM', 72, 16)} containerPadding="12px 0 0" />
             <Paragraph html={`<span style="display:inline-block;background:${SAGE};color:${INK};font-family:${mono};font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;padding:5px 10px;">+18% vs 2025</span>`} containerPadding="18px 0 0" />
           </Column>
         </Row>

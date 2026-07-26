@@ -85,7 +85,7 @@ export default function Mise({ mode }: { mode: Mode }) {
   // ---------------------------------------------------------------- EMAIL
   if (mode === 'email') {
     return (
-      <Root mode={mode} backgroundColor={KRAFT} contentWidth="600px" previewText="Recipe of the week — Cast-Iron Rosemary Focaccia" fontFamily={font.body}>
+      <Root mode={mode} backgroundColor={KRAFT} contentWidth="480px" previewText="Recipe of the week — Cast-Iron Rosemary Focaccia" fontFamily={font.body}>
         <Row backgroundColor={PAPER} cells={[3, 2]} padding="20px 26px 16px">
           <Col padding="0" verticalAlign="middle"><Paragraph html={`<img src="assets/mise-mark.svg" width="30" style="vertical-align:middle"/> <span style="font-family:${disp};font-size:20px;font-weight:600;letter-spacing:.02em;color:${INK};vertical-align:middle;padding-left:8px;">MISE</span>`} /></Col>
           <Col padding="0" verticalAlign="middle"><Paragraph html={`<span style="text-transform:uppercase">Recipe of the week<br/>№ 34</span>`} fontFamily={font.mono} fontSize="10px" fontWeight={500} letterSpacing=".2em" color={MUT2} textAlign="right" lineHeight="1.4" /></Col>
@@ -93,11 +93,11 @@ export default function Mise({ mode }: { mode: Mode }) {
         <Row backgroundColor={PAPER} padding="0"><Column padding="0"><Divider borderTopWidth="3px" borderTopColor={SIENNA} borderTopStyle="solid" width="100%" /></Column></Row>
         <Row backgroundColor={PAPER} padding="24px 26px 6px">
           <Column padding="0">
-            <Heading level="h2" text="Cast-Iron Rosemary Focaccia" fontFamily={font.display} fontSize="34px" fontWeight={600} letterSpacing="-.01em" lineHeight="1.06" color={INK} />
+            <Heading level="h2" text="Cast-Iron Rosemary Focaccia" fontFamily={font.display} fontSize="27px" fontWeight={600} letterSpacing="-.01em" lineHeight="1.06" color={INK} />
             <Paragraph text="Crisp-bottomed, dimpled, olive-oil rich — the easiest bread you'll make on repeat. One skillet, four ingredients you already own." fontFamily={font.body} fontSize="14.5px" color={MUT} lineHeight="1.55" containerPadding="12px 0 0" />
           </Column>
         </Row>
-        <Row backgroundColor={PAPER} padding="18px 26px 0"><Column padding="0"><Image src="assets/mise-focaccia.svg" alt="Top-down cast-iron rosemary focaccia" width="100%" /></Column></Row>
+        <Row backgroundColor={PAPER} padding="18px 26px 0"><Column padding="0"><Image src="assets/mise-focaccia.svg" alt="Top-down cast-iron rosemary focaccia" width="62%" /></Column></Row>
         <Row backgroundColor={PAPER} layout={ColumnLayouts.FourEqual} padding="20px 0 0" border={{ ...hair('Top'), ...hair('Bottom') }}>
           {TimeCell({ icon: 'skillet', value: '8', label: 'Serves', border: hair('Right') })}
           {TimeCell({ icon: 'prep', value: '20m', label: 'Prep', border: hair('Right') })}

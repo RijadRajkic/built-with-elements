@@ -187,7 +187,7 @@
                 "values": {
                   "containerPadding": "8px 0 0",
                   "headingType": "h2",
-                  "fontSize": "46px",
+                  "fontSize": "34px",
                   "textAlign": "center",
                   "lineHeight": "140%",
                   "linkStyle": {
@@ -328,7 +328,7 @@
                     "linkHoverUnderline": true
                   },
                   "color": "#000000",
-                  "text": "<span style=\"display:block;text-align:center;padding:12px 0 4px;\"><img src=\"assets/spore-02-flyagaric.png\" height=\"104\"/></span>",
+                  "text": "<span style=\"display:block;text-align:center;padding:12px 0 4px;\"><img src=\"assets/spore-02-flyagaric.png\" height=\"84\"/></span>",
                   "_meta": {
                     "htmlID": "u_content_text_5",
                     "htmlClassNames": "u_content_text"
@@ -345,7 +345,7 @@
                 "values": {
                   "containerPadding": "10px",
                   "headingType": "h3",
-                  "fontSize": "24px",
+                  "fontSize": "21px",
                   "textAlign": "center",
                   "lineHeight": "140%",
                   "linkStyle": {
@@ -520,7 +520,7 @@
             ],
             "values": {
               "backgroundColor": "#EFE9DA",
-              "padding": "16px 16px 14px",
+              "padding": "14px 14px 12px",
               "border": {
                 "borderTopWidth": "1px",
                 "borderTopColor": "rgba(35,39,31,.16)",
@@ -1149,7 +1149,7 @@
       "borderRadius": "10px",
       "contentAlign": "center",
       "contentVerticalAlign": "middle",
-      "contentWidth": "600px",
+      "contentWidth": "480px",
       "fontFamily": {
         "label": "Inter",
         "value": "Inter, 'Helvetica Neue', Arial, sans-serif"

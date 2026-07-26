@@ -230,7 +230,7 @@
                 "values": {
                   "containerPadding": "10px",
                   "headingType": "h2",
-                  "fontSize": "34px",
+                  "fontSize": "27px",
                   "textAlign": "left",
                   "lineHeight": "1.06",
                   "linkStyle": {
@@ -350,8 +350,8 @@
                   "src": {
                     "url": "assets/mise-focaccia.svg",
                     "width": 1600,
-                    "autoWidth": true,
-                    "maxWidth": "100%"
+                    "autoWidth": false,
+                    "maxWidth": "62%"
                   },
                   "textAlign": "center",
                   "altText": "Top-down cast-iron rosemary focaccia",
@@ -898,7 +898,7 @@
       "borderRadius": "10px",
       "contentAlign": "center",
       "contentVerticalAlign": "middle",
-      "contentWidth": "600px",
+      "contentWidth": "480px",
       "fontFamily": {
         "label": "Inter",
         "value": "Inter, 'Helvetica Neue', Arial, sans-serif"

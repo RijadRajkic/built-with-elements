@@ -27,7 +27,7 @@
                     "url": "assets/cadence-mark.svg",
                     "width": 1600,
                     "autoWidth": false,
-                    "maxWidth": "86.21%"
+                    "maxWidth": "100%"
                   },
                   "textAlign": "center",
                   "altText": "Cadence sunrise mark",
@@ -329,7 +329,7 @@
                     "linkHoverUnderline": true
                   },
                   "color": "#000000",
-                  "text": "<span style=\"font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:92px;font-weight:500;letter-spacing:-.03em;line-height:.8;font-variant-numeric:tabular-nums;color:#EDEBE4;\">1,284</span><span style=\"font-family:'JetBrains Mono','Courier New',monospace;font-size:19px;font-weight:500;letter-spacing:.06em;color:#FF5A1F;padding-left:12px;\">KM</span>",
+                  "text": "<span style=\"font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:72px;font-weight:500;letter-spacing:-.03em;line-height:.8;font-variant-numeric:tabular-nums;color:#EDEBE4;\">1,284</span><span style=\"font-family:'JetBrains Mono','Courier New',monospace;font-size:16px;font-weight:500;letter-spacing:.06em;color:#FF5A1F;padding-left:12px;\">KM</span>",
                   "_meta": {
                     "htmlID": "u_content_text_3",
                     "htmlClassNames": "u_content_text"
@@ -1090,7 +1090,7 @@
       "borderRadius": "10px",
       "contentAlign": "center",
       "contentVerticalAlign": "middle",
-      "contentWidth": "600px",
+      "contentWidth": "480px",
       "fontFamily": {
         "label": "Inter",
         "value": "Inter, 'Helvetica Neue', Arial, sans-serif"

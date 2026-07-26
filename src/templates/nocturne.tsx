@@ -32,7 +32,12 @@ const border = (side: string, color: string, style = 'solid') => ({
   [`border${side}Style`]: style,
 });
 
-const plate = (src: string, alt = '') => `<img src="${src}" alt="${alt}" style="display:block;width:100%;border:1px solid ${gilt(0.3)};"/>`;
+// A width is only passed by the email invite, where the plate is inset so the
+// card stays glanceable; every other surface keeps the original full-bleed plate.
+const plate = (src: string, alt = '', width?: string) =>
+  width
+    ? `<img src="${src}" alt="${alt}" style="display:block;width:${width};max-width:100%;margin:0 auto;border:1px solid ${gilt(0.3)};"/>`
+    : `<img src="${src}" alt="${alt}" style="display:block;width:100%;border:1px solid ${gilt(0.3)};"/>`;
 
 const WORKS: [string, string, string, string][] = [
   ['assets/nocturne-plate-1.jpg', '01', 'Veil (After the Storm)', 'Oil on linen · 2023 · 180 × 140 cm'],
@@ -53,7 +58,7 @@ export default function Nocturne({ mode }: { mode: Mode }) {
   // ---------------------------------------------------------------- EMAIL (invite)
   if (mode === 'email') {
     return (
-      <Root mode={mode} backgroundColor={KRAFT} contentWidth="600px" previewText="You're invited — Nocturne: Elias Vaughn, opening 12 September" fontFamily={bodyFont}>
+      <Root mode={mode} backgroundColor={KRAFT} contentWidth="480px" previewText="You're invited — Nocturne: Elias Vaughn, opening 12 September" fontFamily={bodyFont}>
         <Row backgroundColor={BLACK} padding="26px 40px 0">
           <Column padding="0">
             <Paragraph html={`<span style="display:block;text-align:center;"><img src="assets/nocturne-monogram.svg" width="40"/></span>`} />
@@ -64,11 +69,11 @@ export default function Nocturne({ mode }: { mode: Mode }) {
         <Row backgroundColor={BLACK} padding="24px 40px 8px">
           <Column padding="0">
             <Paragraph html={`<span style="text-transform:uppercase">You are invited to the opening of</span>`} fontFamily={mono} fontSize="10px" fontWeight={500} letterSpacing=".24em" color={g(0.55)} textAlign="center" />
-            <Heading level="h1" text="Nocturne" fontFamily={serif} fontSize="58px" fontWeight={500} letterSpacing="-.01em" lineHeight="1" color={PARCH} textAlign="center" containerPadding="12px 0 0" />
+            <Heading level="h1" text="Nocturne" fontFamily={serif} fontSize="38px" fontWeight={500} letterSpacing="-.01em" lineHeight="1" color={PARCH} textAlign="center" containerPadding="12px 0 0" />
             <Paragraph html={`<span style="font-style:italic">Elias Vaughn · Paintings 2018–2026</span>`} fontFamily={serif} fontSize="19px" color={g(0.75)} textAlign="center" containerPadding="8px 0 0" />
           </Column>
         </Row>
-        <Row backgroundColor={BLACK} padding="22px 40px 0"><Column padding="0"><Paragraph html={plate('assets/nocturne-plate-2.jpg', 'Nocturne No. 7')} /></Column></Row>
+        <Row backgroundColor={BLACK} padding="22px 40px 0"><Column padding="0"><Paragraph html={plate('assets/nocturne-plate-2.jpg', 'Nocturne No. 7', '230px')} /></Column></Row>
         <Row backgroundColor={BLACK} padding="26px 40px 6px">
           <Column padding="0">
             <Paragraph html={`Saturday 12 September 2026 · 7 pm`} fontFamily={serif} fontSize="24px" color={PARCH} textAlign="center" />

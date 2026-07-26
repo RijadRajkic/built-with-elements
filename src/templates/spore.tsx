@@ -59,13 +59,14 @@ const statGrid = (s: Spec) => {
 };
 
 /** one field-guide card → a bordered Column */
-function Card(s: Spec, cardBorder: object = allBorder()) {
+// `compact` is the email deck reveal, where the card has to read at a glance.
+function Card(s: Spec, cardBorder: object = allBorder(), compact = false) {
   return (
-    <Column padding="16px 16px 14px" backgroundColor={CREAM} border={cardBorder}>
+    <Column padding={compact ? '14px 14px 12px' : '16px 16px 14px'} backgroundColor={CREAM} border={cardBorder}>
       {[
         <Paragraph key="h" html={`<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td align="left" style="font-family:${mono};font-size:10px;letter-spacing:.14em;color:${MUT2};">№ ${s.n}</td><td align="right" style="font-family:${mono};font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${INK};"><img src="${s.pip}" width="10" style="vertical-align:middle"/> ${s.rarity}</td></tr></table>`} />,
-        <Paragraph key="sil" html={`<span style="display:block;text-align:center;padding:12px 0 4px;"><img src="${s.sil}" height="104"/></span>`} />,
-        <Heading key="nm" level="h3" text={s.title} fontFamily={font.display} fontSize="24px" fontWeight={600} color={INK} textAlign="center" letterSpacing="-.01em" />,
+        <Paragraph key="sil" html={`<span style="display:block;text-align:center;padding:12px 0 4px;"><img src="${s.sil}" height="${compact ? 84 : 104}"/></span>`} />,
+        <Heading key="nm" level="h3" text={s.title} fontFamily={font.display} fontSize={compact ? '21px' : '24px'} fontWeight={600} color={INK} textAlign="center" letterSpacing="-.01em" />,
         <Paragraph key="bi" html={`<span style="font-style:italic;">${s.binomial}</span>`} fontFamily={font.mono} fontSize="12px" color={MUT} textAlign="center" containerPadding="2px 0 0" />,
         <Paragraph key="st" html={statGrid(s)} containerPadding="14px 0 0" />,
         <Paragraph key="fl" html={`<span style="font-style:italic;">${s.flavor}</span>`} fontFamily={font.body} fontSize="12.5px" color={FLAV} lineHeight="1.4" containerPadding="12px 0 2px" />,
@@ -95,7 +96,7 @@ export default function Spore({ mode }: { mode: Mode }) {
       </Col>
     );
     return (
-      <Root mode={mode} backgroundColor={KRAFT} contentWidth="600px" previewText="You unlocked 3 new specimens — one of them is dangerous" fontFamily={font.body}>
+      <Root mode={mode} backgroundColor={KRAFT} contentWidth="480px" previewText="You unlocked 3 new specimens — one of them is dangerous" fontFamily={font.body}>
         <Row backgroundColor={INK} cells={[1, 1]} padding="20px 24px">
           <Col padding="0" verticalAlign="middle"><Paragraph html={`<img src="assets/spore-mark-cream.svg" width="30" style="vertical-align:middle"/> <span style="font-family:${disp};font-size:18px;font-weight:600;letter-spacing:.18em;color:${CREAM};vertical-align:middle;padding-left:8px;">SPORE</span>`} /></Col>
           <Col padding="0" verticalAlign="middle"><Paragraph html={`<span style="text-transform:uppercase">6 / 24 collected</span>`} fontFamily={font.mono} fontSize="10px" fontWeight={500} letterSpacing=".18em" color="rgba(239,233,218,.6)" textAlign="right" /></Col>
@@ -103,12 +104,12 @@ export default function Spore({ mode }: { mode: Mode }) {
         <Row backgroundColor={INK} padding="8px 24px 8px">
           <Column padding="0">
             <Paragraph html={`<span style="text-transform:uppercase">New in your deck</span>`} fontFamily={font.mono} fontSize="11px" fontWeight={500} letterSpacing=".26em" color={RUST} textAlign="center" />
-            <Heading level="h2" text="+3 unlocked" fontFamily={font.display} fontSize="46px" fontWeight={500} letterSpacing="-.02em" color={CREAM} textAlign="center" containerPadding="8px 0 0" />
+            <Heading level="h2" text="+3 unlocked" fontFamily={font.display} fontSize="34px" fontWeight={500} letterSpacing="-.02em" color={CREAM} textAlign="center" containerPadding="8px 0 0" />
           </Column>
         </Row>
         <Row backgroundColor={INK} cells={[1, 3, 1]} padding="4px 24px 12px">
           <Column padding="0" />
-          {Card(byNum('02'))}
+          {Card(byNum('02'), allBorder(), true)}
           <Column padding="0" />
         </Row>
         <Row backgroundColor={INK} padding="0 24px 30px">

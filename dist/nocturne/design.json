@@ -189,7 +189,7 @@
                 "values": {
                   "containerPadding": "12px 0 0",
                   "headingType": "h1",
-                  "fontSize": "58px",
+                  "fontSize": "38px",
                   "textAlign": "center",
                   "lineHeight": "1",
                   "linkStyle": {
@@ -317,7 +317,7 @@
                     "linkHoverUnderline": true
                   },
                   "color": "#000000",
-                  "text": "<img src=\"assets/nocturne-plate-2.jpg\" alt=\"Nocturne No. 7\" style=\"display:block;width:100%;border:1px solid rgba(168,137,79,0.3);\"/>",
+                  "text": "<img src=\"assets/nocturne-plate-2.jpg\" alt=\"Nocturne No. 7\" style=\"display:block;width:230px;max-width:100%;margin:0 auto;border:1px solid rgba(168,137,79,0.3);\"/>",
                   "_meta": {
                     "htmlID": "u_content_text_5",
                     "htmlClassNames": "u_content_text"
@@ -764,7 +764,7 @@
       "borderRadius": "10px",
       "contentAlign": "center",
       "contentVerticalAlign": "middle",
-      "contentWidth": "600px",
+      "contentWidth": "480px",
       "fontFamily": {
         "label": "Inter",
         "value": "Inter,'Helvetica Neue',Arial,sans-serif"
