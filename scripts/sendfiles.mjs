@@ -113,35 +113,58 @@ ${cards}
     </ol>
   </main>
 <script>
+  // navigator.clipboard.write() needs the click's user activation to still be
+  // live. Awaiting a fetch inside the handler can outlive it, which fails the
+  // copy intermittently — so every email is fetched up front and the handler
+  // does no async work before the write.
+  const PAYLOADS = new Map();
+  const buttons = [...document.querySelectorAll('button[data-slug]')];
+
+  async function prime() {
+    buttons.forEach((b) => { b.disabled = true; b.textContent = 'Loading\u2026'; });
+    await Promise.all(buttons.map(async (button) => {
+      const slug = button.dataset.slug;
+      try {
+        const response = await fetch('dist/' + slug + '/email-send.html');
+        if (!response.ok) throw new Error(response.status);
+        // Body only: pasting a whole document makes Gmail render the <head>
+        // title as a line of body text above the email.
+        const body = new DOMParser().parseFromString(await response.text(), 'text/html').body.innerHTML;
+        PAYLOADS.set(slug, body);
+        button.disabled = false;
+        button.textContent = 'Copy email';
+      } catch (error) {
+        button.textContent = 'Unavailable';
+        button.className = 'fail';
+        console.error('could not load ' + slug, error);
+      }
+    }));
+  }
+
   document.addEventListener('click', async (event) => {
     const button = event.target.closest('button[data-slug]');
-    if (!button) return;
-    const label = button.dataset.label || (button.dataset.label = button.textContent);
+    if (!button || button.disabled) return;
+    const payload = PAYLOADS.get(button.dataset.slug);
+    if (!payload) return;
     try {
-      const html = await fetch('dist/' + button.dataset.slug + '/email-send.html').then((r) => {
-        if (!r.ok) throw new Error(r.status);
-        return r.text();
-      });
-      // Copy the body only. Pasting a whole document makes Gmail render the
-      // <head> title as a line of body text above the email.
-      const body = new DOMParser().parseFromString(html, 'text/html').body.innerHTML;
-      // text/html is the flavour Gmail reads on paste; text/plain keeps a sane
-      // fallback for anything that only accepts plain text.
       await navigator.clipboard.write([
         new ClipboardItem({
-          'text/html': new Blob([body], { type: 'text/html' }),
-          'text/plain': new Blob([body], { type: 'text/plain' }),
+          'text/html': new Blob([payload], { type: 'text/html' }),
+          'text/plain': new Blob([payload], { type: 'text/plain' }),
         }),
       ]);
-      button.textContent = 'Copied \\u2713';
+      button.textContent = 'Copied \u2713';
       button.className = 'done';
+      setTimeout(() => { button.textContent = 'Copy email'; button.className = ''; }, 2200);
     } catch (error) {
-      button.textContent = 'Failed';
+      // Left in place rather than reset — a failed copy must not look like a success.
+      button.textContent = 'Copy failed';
       button.className = 'fail';
       console.error('copy failed', error);
     }
-    setTimeout(() => { button.textContent = label; button.className = ''; }, 2200);
   });
+
+  prime();
 </script>
 </body>
 </html>
