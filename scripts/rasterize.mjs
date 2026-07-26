@@ -13,7 +13,7 @@ const ASSETS = join(dirname(fileURLToPath(import.meta.url)), '..', 'design', 'as
 // mise-focaccia at 548px) and keeps marks crisp on HiDPI.
 const SCALE = 3;
 const MIN_W = 240;
-const MAX_W = 1200;
+const MAX_W = 700;
 
 function intrinsic(svg) {
   const vb = svg.match(/viewBox="\s*([-\d.]+)[,\s]+([-\d.]+)[,\s]+([-\d.]+)[,\s]+([-\d.]+)\s*"/);
