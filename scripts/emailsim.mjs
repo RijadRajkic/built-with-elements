@@ -44,14 +44,18 @@ for (const slug of SLUGS) {
   const sim = join(ROOT, 'dist', slug, 'email-gmail.html');
   writeFileSync(sim, gmailify(original));
 
-  const png = join(OUT, `${slug}.png`);
+  // Two widths: 680 is a phone/narrow pane, 1400 is a desktop reading pane where
+  // a band that bleeds past the card width becomes obvious.
+  for (const [suffix, width] of [['', 680], ['-wide', 1400]]) {
+  const png = join(OUT, `${slug}${suffix}.png`);
   execFileSync(CHROME, ['--headless=new', ...HEADLESS_ARGS, '--disable-gpu', '--no-sandbox', '--hide-scrollbars',
     `--user-data-dir=${mkdtempSync(join(tmpdir(), 'emailsim-'))}`,
-    '--force-device-scale-factor=1', '--window-size=680,6000', '--virtual-time-budget=8000',
+    '--force-device-scale-factor=1', `--window-size=${width},6000`, '--virtual-time-budget=8000',
     `--screenshot=${png}`, `file://${sim}`], { stdio: 'ignore', env: HEADLESS_ENV });
   execFileSync(MAGICK, [png, '-trim', '+repage', png], { stdio: 'ignore' });
   const dims = execFileSync(MAGICK, ['identify', '-format', '%wx%h', png]).toString();
-  console.log(`${slug.padEnd(20)} ${String(before).padStart(3)} declaration(s) stripped → ${dims}`);
+  console.log(`${(slug + suffix).padEnd(26)} ${String(before).padStart(3)} declaration(s) stripped → ${dims}`);
+  }
 }
 console.log(`\n${stripCount} total stripped declarations across 8 emails`);
 console.log(`sims → dist/*/email-gmail.html   shots → qa/gmail-sim/`);

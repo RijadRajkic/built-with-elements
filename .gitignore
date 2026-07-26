@@ -14,3 +14,4 @@ docs/grind-handoff-*.md
 qa/
 dist/*/email-gmail.html
 dist/*/email-send.html
+copy-emails.html

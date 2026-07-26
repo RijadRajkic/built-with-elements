@@ -50,6 +50,33 @@ const MODES: { mode: Mode; file: string }[] = [
 // The PNG twins are committed, so a plain `npm run build` needs no rasteriser.
 // If an SVG is added without running `npm run raster`, fail loudly rather than
 // shipping an email with an image no client can display.
+// Unlayer puts each row's background on the full-width outer container, so a
+// coloured band bleeds to the whole width of the reading pane. The design draws
+// the email as a fixed-width card with the bands inside it, so pin every row
+// container to one card width and centre it; the body colour shows around it.
+// Row padding stays where it is, so nothing inside reflows.
+function constrainEmailBands(html: string): string {
+  const rows = [...html.matchAll(/class="u-row-container[^"]*"\s+style="([^"]*)"/g)];
+  if (!rows.length) return html;
+
+  const contentWidth = Number(html.match(/class="u-row [^"]*"\s+style="[^"]*max-width:\s*(\d+)px/)?.[1] ?? 600);
+  let gutter = 0;
+  for (const [, style] of rows) {
+    const parts = style.match(/padding:\s*([^;]+)/)?.[1].trim().split(/\s+/) ?? [];
+    const horizontal = parseInt(parts.length > 1 ? parts[1] : (parts[0] ?? '0'), 10);
+    if (Number.isFinite(horizontal)) gutter = Math.max(gutter, horizontal);
+  }
+  const card = contentWidth + 2 * gutter;
+
+  // border-box so the declared width is the band's real width whatever its padding —
+  // otherwise rows with different padding would give the card a ragged edge.
+  return html.replace(
+    /(class="u-row-container[^"]*"\s+style=")([^"]*)"/g,
+    (_full, head: string, style: string) =>
+      `${head}${style.replace(/;\s*$/, '')};max-width:${card}px;margin:0 auto;box-sizing:border-box;"`,
+  );
+}
+
 function assertRasterised(slug: string, emailHtml: string) {
   const missing = [...emailHtml.matchAll(/src="[^"]*assets\/([^"]+\.png)"/g)]
     .map((m) => m[1])
@@ -78,6 +105,7 @@ function build() {
       if (mode === 'email') {
         html = html.replace(/(src="[^"]*assets\/[^"]+)\.svg"/g, '$1.png"');
         assertRasterised(slug, html);
+        html = constrainEmailBands(html);
       }
       writeFileSync(join(out, file), html);
     }
